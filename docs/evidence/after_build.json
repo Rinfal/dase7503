@@ -1,0 +1,74 @@
+{
+  "timestamp_utc": "2026-11-19T04:52:51.746187+00:00",
+  "architecture": "aarch64",
+  "kernel": "6.8.0-1047-raspi",
+  "ros_setup_exists": true,
+  "ros_distro": "jazzy",
+  "groups": {
+    "returncode": 0,
+    "output": "rsi-bd-04 adm cdrom sudo dip plugdev users lpadmin sambashare"
+  },
+  "usb": {
+    "returncode": 0,
+    "output": "Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\nBus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\nBus 002 Device 002: ID 17ef:608c Lenovo Lenovo Calliope USB Keyboard\nBus 002 Device 004: ID 10c4:ea60 Silicon Labs CP210x UART Bridge\nBus 003 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\nBus 004 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\nBus 004 Device 002: ID 0b05:184c ASUSTek Computer, Inc. 802.11ac NIC\nBus 004 Device 003: ID 413c:301a Dell Computer Corp. Dell MS116 Optical Mouse\nBus 005 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub"
+  },
+  "serial_devices": [
+    "/dev/serial/by-id/usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001-if00-port0"
+  ],
+  "serial_fallback": [
+    "/dev/ttyUSB0"
+  ],
+  "camera_sensors": {
+    "10-001a": "imx708"
+  },
+  "video_devices": {
+    "video37": "pispbe-config",
+    "video27": "pispbe-stitch_output",
+    "video7": "rp1-cfe-fe_config",
+    "video35": "pispbe-tdn_output",
+    "video25": "pispbe-output1",
+    "video5": "rp1-cfe-fe_image1",
+    "video33": "pispbe-output0",
+    "video23": "pispbe-hog_output",
+    "video3": "rp1-cfe-csi2_ch3",
+    "video31": "pispbe-stitch_input",
+    "video21": "pispbe-tdn_input",
+    "video1": "rp1-cfe-embedded",
+    "video28": "pispbe-config",
+    "video36": "pispbe-stitch_output",
+    "video26": "pispbe-tdn_output",
+    "video6": "rp1-cfe-fe_stats",
+    "video34": "pispbe-output1",
+    "video24": "pispbe-output0",
+    "video4": "rp1-cfe-fe_image0",
+    "video32": "pispbe-hog_output",
+    "video22": "pispbe-stitch_input",
+    "video2": "rp1-cfe-csi2_ch2",
+    "video30": "pispbe-tdn_input",
+    "video20": "pispbe-input",
+    "video0": "rp1-cfe-csi2_ch0",
+    "video29": "pispbe-input",
+    "video19": "rpivid"
+  },
+  "python_modules": {
+    "yaml": true,
+    "cv2": true,
+    "numpy": true,
+    "serial": true,
+    "rclpy": true,
+    "pyzbar": true
+  },
+  "programs": {
+    "colcon": "/usr/bin/colcon",
+    "ros2": "/opt/ros/jazzy/bin/ros2",
+    "cam": "/home/rsi-bd-04/Documents/ChatGPT/dase7503/camera_ws/install/libcamera/bin/cam",
+    "rpicam-hello": null,
+    "git": "/usr/bin/git",
+    "cmake": "/usr/bin/cmake",
+    "meson": "/usr/bin/meson"
+  },
+  "libcamera_list": {
+    "returncode": 0,
+    "output": "Available cameras:\n1: External camera 'imx708' (/base/axi/pcie@120000/rp1/i2c@88000/imx708@1a)\n[0:59:04.799682650] [47306]  INFO Camera camera_manager.cpp:340 libcamera v0.0.0+1-670581c2\n[0:59:04.839336596] [47314]  INFO RPI pisp.cpp:725 libpisp version v1.5.0 86d71c805c3f 19-11-2026 (04:50:22)\n[0:59:04.929295332] [47314]  INFO IPAProxy ipa_proxy.cpp:184 Using tuning file /home/rsi-bd-04/Documents/ChatGPT/dase7503/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp/imx708.json\n[0:59:04.972740261] [47314]  INFO Camera camera_manager.cpp:223 Adding camera '/base/axi/pcie@120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp\n[0:59:04.972808223] [47314]  INFO RPI pisp.cpp:1186 Registered camera /base/axi/pcie@120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_D0"
+  }
+}

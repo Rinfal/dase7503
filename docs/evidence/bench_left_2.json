@@ -1,0 +1,115 @@
+{
+  "axis": "left",
+  "duration": 0.6,
+  "linear_speed": 0.08,
+  "samples": [
+    {
+      "monotonic": 7063.343415554,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7063.429156781,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7063.515154179,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7063.607243942,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7063.73066324,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7063.818133523,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7063.897075336,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7063.970659762,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7064.060661034,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7064.144448393,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7064.235785461,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7064.324822324,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7064.454277957,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7064.530126424,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7064.612326741,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7064.690154116,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7064.784500946,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 7064.866565608,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[INFO] [launch]: All log files can be found below /home/rsi-bd-04/.ros/log/2026-11-19-12-40-25-002030-rsi-bd-04-44039
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [safety_gate-1]: process started with pid [44042]
+[INFO] [odom_tf-2]: process started with pid [44043]
+[INFO] [qr_scanner-3]: process started with pid [44044]
+[odom_tf-2] [INFO] [1795063231.374123433] [odom_tf]: Odometry bridge ready
+[safety_gate-1] [INFO] [1795063231.498235523] [safety_gate]: {"armed": false, "estop": true, "reason": "emergency_stop"}
+[qr_scanner-3] [INFO] [1795063232.772990625] [qr_scanner]: QR scanner ready
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [qr_scanner-3]: sending signal 'SIGINT' to process[qr_scanner-3]
+[INFO] [odom_tf-2]: sending signal 'SIGINT' to process[odom_tf-2]
+[INFO] [safety_gate-1]: sending signal 'SIGINT' to process[safety_gate-1]
+[INFO] [qr_scanner-3]: process has finished cleanly [pid 44044]
+[qr_scanner-3] [INFO] [1795063232.772990625] [qr_scanner]: QR scanner ready
+
+[INFO] [safety_gate-1]: process has finished cleanly [pid 44042]
+[INFO] [odom_tf-2]: process has finished cleanly [pid 44043]

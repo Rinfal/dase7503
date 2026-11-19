@@ -1,0 +1,46 @@
+{
+  "servo_type_verified": true,
+  "safe_range_verified": false,
+  "wiring_corrected": true,
+  "required_motion": "only_slightly_above_initial_near_bottom",
+  "observations": [
+    {
+      "pulse_us": 1500,
+      "signal_ms": 120,
+      "signal_verified": true,
+      "user_observation": "platform_rose_to_about_two_thirds_of_available_height"
+    },
+    {
+      "pulse_us": 1460,
+      "signal_ms": 120,
+      "signal_verified": true,
+      "user_observation": "moderate_descent_now_about_half_total_height"
+    },
+    {
+      "pulse_us": 1440,
+      "signal_ms": 120,
+      "signal_verified": true,
+      "user_observation": "awaiting_user"
+    },
+    {
+      "evidence": "lift_probe_1440_repeat.json",
+      "user_observation": "same_pulse_repeated_no_further_motion_same_height"
+    },
+    {
+      "evidence": "lift_steps_1400.json",
+      "user_observation": "small_descent_still_mid_height"
+    },
+    {
+      "evidence": "lift_steps_1200.json",
+      "user_observation": "each_step_tiny_descended_about_one_seventh_of_full_range"
+    },
+    {
+      "evidence": "lift_steps_1000.json",
+      "user_observation": "descended_about_one_seventh_to_one_sixth_full_range_still_one_third_above_initial"
+    }
+  ],
+  "observed_servo_label": "Tower pro mg 996r digi hi torque",
+  "type_evidence": "same_1440us_repeated_no_further_motion_plus_incremental_position_response",
+  "observed_lower_safe_pulse_us": 1000,
+  "observed_upper_safe_pulse_us": 1500
+}

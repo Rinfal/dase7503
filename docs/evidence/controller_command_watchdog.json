@@ -1,0 +1,101 @@
+{
+  "verified": false,
+  "test": "command_silence_with_agent_running",
+  "does_not_verify": "USB_disconnection_or_agent_crash",
+  "pulse_duration": 0.4,
+  "quiet_duration": 1.2,
+  "stop_delay_seconds": null,
+  "peak_speed": 0.07249999791383743,
+  "samples": [
+    {
+      "seconds_after_last_command": -0.36524045699934504,
+      "linear_speed": 0.0,
+      "angular_speed": 0.0
+    },
+    {
+      "seconds_after_last_command": -0.23804974399990897,
+      "linear_speed": 0.0,
+      "angular_speed": 0.0
+    },
+    {
+      "seconds_after_last_command": -0.15901059699990583,
+      "linear_speed": 0.0,
+      "angular_speed": 0.0
+    },
+    {
+      "seconds_after_last_command": -0.08093423799982702,
+      "linear_speed": 0.0,
+      "angular_speed": 0.0
+    },
+    {
+      "seconds_after_last_command": -6.127399956312729e-05,
+      "linear_speed": 0.018124999478459358,
+      "angular_speed": 0.031521737575531006
+    },
+    {
+      "seconds_after_last_command": 0.08831459500015626,
+      "linear_speed": 0.036249998956918716,
+      "angular_speed": 0.06304347515106201
+    },
+    {
+      "seconds_after_last_command": 0.1726500290005788,
+      "linear_speed": 0.057999998331069946,
+      "angular_speed": 0.0
+    },
+    {
+      "seconds_after_last_command": 0.26157760500063887,
+      "linear_speed": 0.07249999791383743,
+      "angular_speed": 0.0630434900522232
+    },
+    {
+      "seconds_after_last_command": 0.3516280550002193,
+      "linear_speed": 0.07249999791383743,
+      "angular_speed": 0.0
+    },
+    {
+      "seconds_after_last_command": 0.47758972200063,
+      "linear_speed": 0.06162499636411667,
+      "angular_speed": 0.03152172267436981
+    },
+    {
+      "seconds_after_last_command": 0.5592006960005165,
+      "linear_speed": 0.06524999439716339,
+      "angular_speed": 1.6196914032207133e-08
+    },
+    {
+      "seconds_after_last_command": 0.6377663960001883,
+      "linear_speed": 0.06162499636411667,
+      "angular_speed": 0.03152172267436981
+    },
+    {
+      "seconds_after_last_command": 0.7177442299998802,
+      "linear_speed": 0.06524999439716339,
+      "angular_speed": 1.6196914032207133e-08
+    },
+    {
+      "seconds_after_last_command": 0.8084011990004001,
+      "linear_speed": 0.06524999439716339,
+      "angular_speed": 1.6196914032207133e-08
+    },
+    {
+      "seconds_after_last_command": 0.8922420919998331,
+      "linear_speed": 0.06162499636411667,
+      "angular_speed": 0.03152172267436981
+    },
+    {
+      "seconds_after_last_command": 0.9831424760004666,
+      "linear_speed": 0.06524999439716339,
+      "angular_speed": 0.06304347515106201
+    },
+    {
+      "seconds_after_last_command": 1.0724507559998528,
+      "linear_speed": 0.06887499988079071,
+      "angular_speed": 0.031521737575531006
+    },
+    {
+      "seconds_after_last_command": 1.1996127070005969,
+      "linear_speed": 0.06162499636411667,
+      "angular_speed": 0.03152172267436981
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp_utc": "2026-11-19T07:50:28.108134+00:00",
+  "firmware": "dase-rc-0.1",
+  "flash_tool_exit_code": 0,
+  "factory_backup_sha256": "71ac193fb07588dfa22f452c68dc27bc31b3383395fed3c1091d76c1a278677c",
+  "flash_files": {
+    "0x0": {
+      "file": "bootloader/bootloader.bin",
+      "bytes": 13568,
+      "sha256": "abee9c71cd3601fc8db9ba2b24de72545460795ece220315bceaa27ed7f6a07f"
+    },
+    "0x10000": {
+      "file": "dase7503_remote.bin",
+      "bytes": 304768,
+      "sha256": "c5e5277a559430d160012285bb43b0a331d643e0833ec7b79a8ee1a36046e520"
+    },
+    "0x8000": {
+      "file": "partition_table/partition-table.bin",
+      "bytes": 3072,
+      "sha256": "ca7d84a1bb2c0599d3d50d795cfcdd30547b89b7a0fbf6d95adf7985fbd5f2c0"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#101926"><title>小车 · DASE7503</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<header><div><span class="eyebrow">DASE7503 / LIVE CONTROL</span><h1>智能物流小车</h1></div><span id="connection" class="badge">未登录</span></header>
+<main>
+<section id="login" class="panel login"><h2>连接你的小车</h2><p>手机与树莓派连接同一 Wi-Fi。输入本机访问口令查看画面和控制状态。</p><form id="loginForm"><label for="password">访问口令</label><div class="loginrow"><input id="password" type="password" required autocomplete="current-password"><button type="submit">连接</button></div></form></section>
+<div id="dashboard" hidden>
+<div class="workspace">
+<section class="panel camera"><div class="sectionhead"><h2>前方画面</h2><span id="cameraState" class="muted">等待相机</span></div><div class="viewport"><img id="frame" alt="小车前方实时画面" hidden><div id="cameraEmpty">等待相机连接<span>画面恢复后自动显示</span></div><span id="frameLabel">LIVE</span></div><div class="toolbar"><button id="snapshot" class="secondary" disabled>保存当前截图</button><span class="muted">扫码成功后自动留证</span></div><div id="snapshotResult"></div></section>
+<section class="panel controls"><div class="sectionhead"><h2>驾驶控制</h2><span id="armState" class="badge">已锁定</span></div><p id="gateReason" class="notice">正在读取验收状态</p><div class="metrics"><div><span>控制板反馈</span><strong id="feedback">等待</strong></div><div><span>电池原始值</span><strong id="battery">—</strong></div></div><button id="arm" class="wide" disabled>解锁驾驶</button><p id="driveHint" class="hint">按住行驶，松开停车。离开页面会锁定。</p><div class="drivepad"><button data-drive="forward" disabled>前进</button><div class="drivecenter"><button data-drive="left" disabled>左旋</button><button id="halt" class="secondary" disabled>停车</button><button data-drive="right" disabled>右旋</button></div><button data-drive="back" disabled>后退</button></div><button id="stop" class="estop wide">紧急停车 / 锁定</button><div class="lift"><h3>升降平台 · S2</h3><div><button data-lift="up" class="secondary" disabled>升起</button><button data-lift="down" class="secondary" disabled>降下</button></div><p id="liftReason" class="hint">安全行程尚未标定</p></div></section>
+</div>
+<section class="panel evidence"><div class="sectionhead"><div><h2>二维码留证</h2><p class="muted">连续三帧确认后保存原始内容与截图</p></div><button id="refresh" class="secondary">刷新记录</button></div><div id="evidenceList" class="evidenceList"><p class="muted">还没有二维码记录。将本组二维码放入相机视野。</p></div></section>
+<footer><span>本地网络连接 · 手动遥控</span><button id="logout" class="textbutton">退出登录</button></footer>
+</div>
+<div id="message" role="status" aria-live="polite"></div>
+</main></body></html>

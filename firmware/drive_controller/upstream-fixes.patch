@@ -1,0 +1,51 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 92e6afb..3af6f50 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -64,7 +64,7 @@ execute_process(
+     WORKING_DIRECTORY ${COMPONENT_DIR}
+     RESULT_VARIABLE libmicroros_ret
+     COMMAND
+-        ${submake} -j -f libmicroros.mk
++        ${submake} -j1 -f libmicroros.mk
+                 X_CC=${CMAKE_C_COMPILER}
+                 X_AR=${CMAKE_AR}
+                 X_CXX=${CMAKE_CXX_COMPILER}
+diff --git a/libmicroros.mk b/libmicroros.mk
+index 477cad0..3266f5c 100644
+--- a/libmicroros.mk
++++ b/libmicroros.mk
+@@ -82,13 +82,14 @@ $(EXTENSIONS_DIR)/micro_ros_src/src:
+ 	test -f src/extra_packages/extra_packages.repos && cd src/extra_packages && vcs import --input extra_packages.repos || :;
+ 
+ 
+-$(EXTENSIONS_DIR)/micro_ros_src/install: $(EXTENSIONS_DIR)/esp32_toolchain.cmake $(EXTENSIONS_DIR)/micro_ros_dev/install $(EXTENSIONS_DIR)/micro_ros_src/src
++$(EXTENSIONS_DIR)/micro_ros_src/install/.build-complete: $(EXTENSIONS_DIR)/esp32_toolchain.cmake $(EXTENSIONS_DIR)/micro_ros_dev/install $(EXTENSIONS_DIR)/micro_ros_src/src
+ 	cd $(UROS_DIR); \
+ 	unset AMENT_PREFIX_PATH; \
+ 	PATH="$(subst /opt/ros/$(ROS_DISTRO)/bin,,$(PATH))"; \
+ 	. ../micro_ros_dev/install/local_setup.sh; \
+ 	colcon build \
+ 		--merge-install \
++		--packages-ignore geometry_msgs nav_msgs sensor_msgs trajectory_msgs visualization_msgs shape_msgs stereo_msgs diagnostic_msgs actionlib_msgs std_srvs example_interfaces test_msgs rosidl_generator_tests rosidl_typesupport_introspection_tests \
+ 		--packages-ignore-regex=.*_cpp \
+ 		--metas $(EXTENSIONS_DIR)/colcon.meta $(APP_COLCON_META) \
+ 		--cmake-args \
+@@ -102,9 +103,9 @@ $(EXTENSIONS_DIR)/micro_ros_src/install: $(EXTENSIONS_DIR)/esp32_toolchain.cmake
+ 		-DCMAKE_VERBOSE_MAKEFILE=OFF \
+         -DIDF_INCLUDES='${IDF_INCLUDES}' \
+ 		-DCMAKE_C_STANDARD=$(C_STANDARD) \
+-		-DUCLIENT_C_STANDARD=$(C_STANDARD);
++		-DUCLIENT_C_STANDARD=$(C_STANDARD) && touch $(UROS_DIR)/install/.build-complete;
+ 
+-$(EXTENSIONS_DIR)/libmicroros.a: $(EXTENSIONS_DIR)/micro_ros_src/install
++$(EXTENSIONS_DIR)/libmicroros.a: $(EXTENSIONS_DIR)/micro_ros_src/install/.build-complete
+ 	mkdir -p $(UROS_DIR)/libmicroros; cd $(UROS_DIR)/libmicroros; \
+ 	for file in $$(find $(UROS_DIR)/install/lib/ -name '*.a'); do \
+ 		folder=$$(echo $$file | sed -E "s/(.+)\/(.+).a/\2/"); \
+@@ -116,4 +117,4 @@ $(EXTENSIONS_DIR)/libmicroros.a: $(EXTENSIONS_DIR)/micro_ros_src/install
+ 	done ; \
+ 	$(X_AR) rc -s libmicroros.a *.obj; cp libmicroros.a $(EXTENSIONS_DIR); \
+ 	cd ..; rm -rf libmicroros; \
+-	cp -R $(UROS_DIR)/install/include $(EXTENSIONS_DIR)/include;
++	mkdir -p $(EXTENSIONS_DIR)/include; cp -R $(UROS_DIR)/install/include/. $(EXTENSIONS_DIR)/include/;

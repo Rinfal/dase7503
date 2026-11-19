@@ -1,0 +1,19 @@
+{
+  "firmware": "dase-rc-0.4",
+  "timestamp": "2026-11-19T08:26:22.834310+00:00",
+  "images": {
+    "0x0": {
+      "file": "bootloader/bootloader.bin",
+      "sha256": "abee9c71cd3601fc8db9ba2b24de72545460795ece220315bceaa27ed7f6a07f"
+    },
+    "0x10000": {
+      "file": "dase7503_remote.bin",
+      "sha256": "9d77d5828ae804302964bbff470c5ee99c2da86e7ea2782af0650fac1007d05b"
+    },
+    "0x8000": {
+      "file": "partition_table/partition-table.bin",
+      "sha256": "ca7d84a1bb2c0599d3d50d795cfcdd30547b89b7a0fbf6d95adf7985fbd5f2c0"
+    }
+  },
+  "flash_log": "controller_flash_04.log"
+}

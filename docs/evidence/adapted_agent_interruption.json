@@ -1,0 +1,5907 @@
+{
+  "pwm": [
+    -600,
+    600,
+    -600,
+    600
+  ],
+  "startup_pwm": 0,
+  "duration": 1.0,
+  "quiet": 1.2,
+  "completed": true,
+  "started": 2846.803839841,
+  "initial_encoders": [
+    44859,
+    14916,
+    16657,
+    19224
+  ],
+  "last_command": 2847.802646693,
+  "pause_board_us_estimate": 929202428.9689997,
+  "resume_encoders": [
+    43028,
+    16528,
+    14748,
+    20813
+  ],
+  "motion_without_rearm_rejected": true,
+  "samples": [
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 924602604,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2450,
+      "received": 2843.216292803
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 924652605,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2843.266404292
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 924702606,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2843.316239716
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 924752633,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2843.365830914
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 924802878,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2843.41592103
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 924852629,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2450,
+      "received": 2843.466203083
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 924902630,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2843.516106418
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 924952632,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2843.565919508
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925002632,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2449,
+      "received": 2843.615824721
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925052313,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2843.665043212
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925102573,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2843.715559687
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925152311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2843.764600021
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925202579,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2843.815426214
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925252678,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2453,
+      "received": 2843.865387491
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925302313,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2843.914467543
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925352587,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2843.96527286
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925402311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.01427943
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925452602,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.065243267
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925502311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.114165242
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925552594,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.165210808
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925602680,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.215083164
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925652676,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.26487612
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925702675,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.314518083
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925752313,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.363622302
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925802535,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.414473013
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925852311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.464780748
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925902313,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2449,
+      "received": 2844.513437051
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 925952755,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2450,
+      "received": 2844.564396523
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926002736,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.614375743
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926052311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.663682196
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926102630,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.714429214
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926152311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.763277016
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926202682,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.813970758
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926252311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.863975405
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926302674,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2844.913902645
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926352313,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2844.9628062
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926402736,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2845.013661524
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926452309,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2845.062983713
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926502727,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2845.113499787
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926552679,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2845.163580805
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926602313,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2845.212481493
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926652735,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2845.263480405
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926702311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2453,
+      "received": 2845.312404079
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926752732,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2845.36351311
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926802311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2845.412362169
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926852734,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2845.463061163
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926902680,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2845.513231533
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 926952313,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2845.562384973
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927002740,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2450,
+      "received": 2845.612836257
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927052311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2845.661875814
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927102684,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2845.712649372
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927152311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2845.762881534
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927202311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2845.811847841
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927252733,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2845.863503287
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927302626,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2447,
+      "received": 2845.912691934
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927352311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2845.96174647
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927402313,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2846.011576171
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927452728,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2846.06233059
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927502311,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2846.111308917
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927552732,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2450,
+      "received": 2846.162378288
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927602309,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2846.211358871
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927652735,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2846.262022009
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927702309,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2846.311524202
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927752632,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2846.362361339
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927802630,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2846.411622163
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927852312,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2453,
+      "received": 2846.460851568
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927902677,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2449,
+      "received": 2846.512653015
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 927952631,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2846.561657082
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 928002316,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2846.610598657
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 928052363,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2846.66059198
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 928102709,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2846.711429253
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 928152629,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2846.761629615
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        44859,
+        14916,
+        16657,
+        19224
+      ],
+      "servo_us": 0,
+      "board_us": 928202630,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2453,
+      "received": 2846.811278027
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44841,
+        14932,
+        16636,
+        19241
+      ],
+      "servo_us": 0,
+      "board_us": 928252318,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2445,
+      "received": 2846.861259125
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44795,
+        14972,
+        16590,
+        19281
+      ],
+      "servo_us": 0,
+      "board_us": 928302316,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2445,
+      "received": 2846.911057744
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44736,
+        15025,
+        16529,
+        19332
+      ],
+      "servo_us": 0,
+      "board_us": 928352864,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        36
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2445,
+      "received": 2846.961122083
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44674,
+        15084,
+        16463,
+        19387
+      ],
+      "servo_us": 0,
+      "board_us": 928402315,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        37,
+        0,
+        0,
+        37
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2444,
+      "received": 2847.011231011
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44607,
+        15146,
+        16392,
+        19447
+      ],
+      "servo_us": 0,
+      "board_us": 928452315,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2444,
+      "received": 2847.060905167
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44538,
+        15211,
+        16319,
+        19508
+      ],
+      "servo_us": 0,
+      "board_us": 928502315,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        37,
+        0,
+        0,
+        37
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2445,
+      "received": 2847.110617697
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44467,
+        15276,
+        16244,
+        19571
+      ],
+      "servo_us": 0,
+      "board_us": 928552679,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        39,
+        40,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2444,
+      "received": 2847.160783068
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44396,
+        15340,
+        16169,
+        19635
+      ],
+      "servo_us": 0,
+      "board_us": 928602318,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2445,
+      "received": 2847.210934088
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44324,
+        15406,
+        16094,
+        19699
+      ],
+      "servo_us": 0,
+      "board_us": 928652316,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2445,
+      "received": 2847.260941522
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44251,
+        15470,
+        16019,
+        19763
+      ],
+      "servo_us": 0,
+      "board_us": 928702316,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        37,
+        0,
+        0,
+        37
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2446,
+      "received": 2847.310912763
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44178,
+        15535,
+        15943,
+        19829
+      ],
+      "servo_us": 0,
+      "board_us": 928752682,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        39,
+        40,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2447,
+      "received": 2847.360480412
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44105,
+        15598,
+        15868,
+        19893
+      ],
+      "servo_us": 0,
+      "board_us": 928802318,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2445,
+      "received": 2847.410644933
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        44033,
+        15662,
+        15793,
+        19959
+      ],
+      "servo_us": 0,
+      "board_us": 928852315,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2442,
+      "received": 2847.460827152
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        43960,
+        15725,
+        15718,
+        20025
+      ],
+      "servo_us": 0,
+      "board_us": 928902634,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        39,
+        40,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2445,
+      "received": 2847.510558879
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        43887,
+        15790,
+        15644,
+        20089
+      ],
+      "servo_us": 0,
+      "board_us": 928952313,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        37,
+        0,
+        0,
+        37
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2445,
+      "received": 2847.560284455
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        43815,
+        15854,
+        15567,
+        20153
+      ],
+      "servo_us": 0,
+      "board_us": 929002318,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2447,
+      "received": 2847.610253798
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        43741,
+        15919,
+        15491,
+        20217
+      ],
+      "servo_us": 0,
+      "board_us": 929052316,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2449,
+      "received": 2847.660378275
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        43667,
+        15985,
+        15415,
+        20281
+      ],
+      "servo_us": 0,
+      "board_us": 929102318,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2445,
+      "received": 2847.710189228
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        43593,
+        16052,
+        15337,
+        20344
+      ],
+      "servo_us": 0,
+      "board_us": 929152316,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2441,
+      "received": 2847.760422696
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": true,
+      "watchdog_timeout": false,
+      "pwm": [
+        -600,
+        600,
+        -600,
+        600
+      ],
+      "encoders": [
+        43518,
+        16118,
+        15260,
+        20407
+      ],
+      "servo_us": 0,
+      "board_us": 929202318,
+      "pin_high_64": [
+        39,
+        0,
+        0,
+        37,
+        38,
+        0,
+        0,
+        38
+      ],
+      "hardware_duty_1023": [
+        613,
+        0,
+        0,
+        613,
+        613,
+        0,
+        0,
+        613
+      ],
+      "battery_adc_raw": 2445,
+      "received": 2847.810449558
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 929752602,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2450,
+      "received": 2849.031023468
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 929802613,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2450,
+      "received": 2849.0315958
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 929852602,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.031945056
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 929902611,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.032371401
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 929952604,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2849.032991786
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930002610,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2447,
+      "received": 2849.038072734
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930052602,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.039085839
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930452602,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.057877556
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930502611,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.108785458
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930552604,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.157793273
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930602610,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2849.207761794
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930653140,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2454,
+      "received": 2849.261359662
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930702631,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2453,
+      "received": 2849.307410543
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930752885,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.358538914
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930802309,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2450,
+      "received": 2849.407525773
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930852367,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.457394769
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930903274,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2463,
+      "received": 2849.509182791
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 930952630,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.556919522
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931002882,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2450,
+      "received": 2849.610112912
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931053225,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.658202
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931102633,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2447,
+      "received": 2849.70681149
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931152634,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.757107204
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931203279,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.807945774
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931252632,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.859780534
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931302680,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2450,
+      "received": 2849.907704577
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931353227,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2849.957682205
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931402309,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2850.006453818
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931452497,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2850.056640235
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931502683,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2850.106765521
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931552630,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2850.157309699
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931603285,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2850.209452668
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931652633,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2850.25671309
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931702632,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2850.306370875
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931753115,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2850.357148739
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931802626,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2850.407348955
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931853228,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2850.457107231
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931902314,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2850.506461431
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 931952630,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2850.555990711
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 932002573,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2450,
+      "received": 2850.606255781
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 932052371,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2850.655885485
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 932952605,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2851.761695709
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 933002605,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2851.762328845
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 933052604,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2851.762732844
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 933102608,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2851.76334663
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 933152602,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2452,
+      "received": 2851.76412381
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 933202632,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2450,
+      "received": 2851.804676921
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 933252682,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2451,
+      "received": 2851.854702348
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 933302681,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2453,
+      "received": 2851.90491407
+    },
+    {
+      "firmware": "dase-rc-0.2",
+      "armed": false,
+      "watchdog_timeout": true,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        43028,
+        16528,
+        14748,
+        20813
+      ],
+      "servo_us": 0,
+      "board_us": 933352630,
+      "pin_high_64": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "hardware_duty_1023": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "battery_adc_raw": 2453,
+      "received": 2851.954624142
+    }
+  ],
+  "final_status": {
+    "firmware": "dase-rc-0.2",
+    "armed": false,
+    "watchdog_timeout": true,
+    "pwm": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "encoders": [
+      43028,
+      16528,
+      14748,
+      20813
+    ],
+    "servo_us": 0,
+    "board_us": 933352630,
+    "pin_high_64": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "hardware_duty_1023": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "battery_adc_raw": 2453,
+    "received": 2851.954624142
+  },
+  "encoder_delta": [
+    -1831,
+    1612,
+    -1909,
+    1589
+  ],
+  "stopped_feedback": true,
+  "agent_interruption": {
+    "test": "agent_process_suspended",
+    "pause_seconds": 1.2,
+    "stopped_samples_from_pause": 1,
+    "verified": false,
+    "does_not_verify": "physical_USB_disconnect_or_agent_restart"
+  }
+}

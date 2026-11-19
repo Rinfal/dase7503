@@ -1,0 +1,139 @@
+{
+  "axis": "ccw",
+  "duration": 0.6,
+  "linear_speed": 0.03,
+  "samples": [
+    {
+      "monotonic": 1209.628268279,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1209.629493424,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1209.63035871,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1209.670466024,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1209.751561356,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1209.839222191,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1209.915718278,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1210.009914189,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1210.099114312,
+      "forward": 0.0036249998956918716,
+      "lateral": 0.0,
+      "angular": 0.031521737575531006
+    },
+    {
+      "monotonic": 1210.185884208,
+      "forward": -0.0036249998956918716,
+      "lateral": 0.0,
+      "angular": 0.031521737575531006
+    },
+    {
+      "monotonic": 1210.312308703,
+      "forward": -0.0036249998956918716,
+      "lateral": 0.0,
+      "angular": 0.34673914313316345
+    },
+    {
+      "monotonic": 1210.395557823,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.37826085090637207
+    },
+    {
+      "monotonic": 1210.474631619,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.44130435585975647
+    },
+    {
+      "monotonic": 1210.552086814,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": -0.06304347515106201
+    },
+    {
+      "monotonic": 1210.639913092,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1210.724470758,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1210.817151432,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1210.90631489,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1211.037211912,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1211.112790109,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1211.191331306,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1211.270547525,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    }
+  ]
+}

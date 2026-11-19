@@ -1,0 +1,8 @@
+5秒后测试 M1..M4 PWM=[450, 450, 450, 450]，持续15秒。
+{"pwm": [450, 450, 450, 450], "duration": 15.0, "quiet": 1.2, "completed": false, "started": 1654.988318598, "initial_encoders": [0, 0, 0, 0], "last_command": 1656.168883132, "error": "\u8d77\u8f6c\u540e\u4ecd\u65e0\u7f16\u7801\u5668\u8109\u51b2\uff0c\u505c\u8f66\u68c0\u67e5\u7aef\u53e3 [1, 2, 3, 4]", "final_status": {"firmware": "dase-rc-0.1", "armed": false, "watchdog_timeout": false, "pwm": [0, 0, 0, 0], "encoders": [0, 0, 0, 0], "servo_us": 0, "board_us": 240771789, "received": 1658.698642011}, "encoder_delta": [0, 0, 0, 0], "stopped_feedback": true, "watchdog": {"test": "command_silence_with_agent_running", "output_zero_observed_delay_s": null, "encoder_motion_observed": false, "encoder_settled_during_silence": true, "verified": false, "does_not_verify": "USB_disconnection_or_agent_crash"}}
+Traceback (most recent call last):
+  File "/home/rsi-bd-04/Documents/ChatGPT/dase7503/tools/bench_wheels.py", line 174, in <module>
+    main()
+  File "/home/rsi-bd-04/Documents/ChatGPT/dase7503/tools/bench_wheels.py", line 123, in main
+    raise RuntimeError(f"起转后仍无编码器脉冲，停车检查端口 {missing}")
+RuntimeError: 起转后仍无编码器脉冲，停车检查端口 [1, 2, 3, 4]

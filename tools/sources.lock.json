@@ -1,0 +1,37 @@
+{
+  "libcamera": {
+    "url": "https://github.com/raspberrypi/libcamera.git",
+    "commit": "670581c2f85fed5b4596bc19275748a7b8316579"
+  },
+  "camera_ros": {
+    "url": "https://github.com/christianrauch/camera_ros.git",
+    "commit": "9e94b5b6d6cacbe77dc893d54735f06b4a2fd16f"
+  },
+  "micro_ros_setup": {
+    "url": "https://github.com/micro-ROS/micro_ros_setup.git",
+    "commit": "ed45678c6c0b567277b019f61c395add51c0783e",
+    "workspace": "agent_ws"
+  },
+  "micro_ros_msgs": {
+    "url": "https://github.com/micro-ROS/micro_ros_msgs.git",
+    "commit": "b1ef85201e5545d3e07b73f4628bb15836062573",
+    "workspace": "agent_ws"
+  },
+  "micro_ros_agent": {
+    "url": "https://github.com/micro-ROS/micro-ROS-Agent.git",
+    "commit": "7c932329ad5591ef23942ef1962534258c16b000",
+    "workspace": "agent_ws"
+  },
+  "esp_idf": {
+    "url": "https://github.com/espressif/esp-idf.git",
+    "commit": "c9763f62dd00c887a1a8fafe388db868a7e44069",
+    "tag": "v5.2.3",
+    "workspace": "runtime/esp-idf"
+  },
+  "micro_ros_espidf_component": {
+    "url": "https://github.com/micro-ROS/micro_ros_espidf_component.git",
+    "commit": "5cd71f525eedc1e59a48e3a12184ba75b60b05b7",
+    "branch": "jazzy",
+    "workspace": "firmware/drive_controller/components/micro_ros_espidf_component"
+  }
+}

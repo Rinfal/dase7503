@@ -1,0 +1,7 @@
+[0:56:55.081168957] [46677]  INFO Camera camera_manager.cpp:340 libcamera v0.0.0+1-670581c2
+[0:56:55.216144604] [46681]  INFO RPI pisp.cpp:725 libpisp version v1.5.0 86d71c805c3f 19-11-2026 (04:50:22)
+[0:56:55.316448682] [46681]  INFO IPAProxy ipa_proxy.cpp:184 Using tuning file /home/rsi-bd-04/Documents/ChatGPT/dase7503/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp/imx708.json
+[0:56:55.364815741] [46681]  INFO Camera camera_manager.cpp:223 Adding camera '/base/axi/pcie@120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[0:56:55.364866130] [46681]  INFO RPI pisp.cpp:1186 Registered camera /base/axi/pcie@120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_D0
+Available cameras:
+1: External camera 'imx708' (/base/axi/pcie@120000/rp1/i2c@88000/imx708@1a)

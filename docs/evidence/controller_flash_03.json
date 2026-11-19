@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-11-19T08:23:35.495933+00:00",
+  "firmware": "dase-rc-0.3",
+  "flash_tool_exit_code": 0,
+  "flash_log": "controller_flash_03.log",
+  "files": {
+    "bootloader/bootloader.bin": "abee9c71cd3601fc8db9ba2b24de72545460795ece220315bceaa27ed7f6a07f",
+    "dase7503_remote.bin": "7148b98da46efca3a2be412b17c6fae87a4d1a388e1905ec3289bde401c820b3",
+    "partition_table/partition-table.bin": "ca7d84a1bb2c0599d3d50d795cfcdd30547b89b7a0fbf6d95adf7985fbd5f2c0"
+  }
+}

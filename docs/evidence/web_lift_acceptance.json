@@ -1,0 +1,6957 @@
+{
+  "verified": true,
+  "results": [
+    {
+      "direction": "lift_up",
+      "verified": true,
+      "physical_motion_verified": false,
+      "expected_us": 540,
+      "samples": [
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 150,
+          "board_us": 414637726,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": false,
+          "servo_edges": 2,
+          "servo_high_us": 148,
+          "servo_requests": 1,
+          "received": 6602.003421933
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 414687724,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 3,
+          "servo_high_us": 541,
+          "servo_requests": 2,
+          "received": 6602.052822442
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 414737741,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 6,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6602.103867142
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 414787716,
+          "battery_adc_raw": 2491,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 8,
+          "servo_high_us": 542,
+          "servo_requests": 2,
+          "received": 6602.152579043
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 414838736,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 11,
+          "servo_high_us": 544,
+          "servo_requests": 2,
+          "received": 6602.20542354
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 414887716,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 13,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6602.254089998
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 414938728,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 16,
+          "servo_high_us": 542,
+          "servo_requests": 2,
+          "received": 6602.303567127
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 414987476,
+          "battery_adc_raw": 2500,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 18,
+          "servo_high_us": 542,
+          "servo_requests": 2,
+          "received": 6602.353734011
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415038734,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 21,
+          "servo_high_us": 540,
+          "servo_requests": 2,
+          "received": 6602.404198583
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415087716,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 23,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6602.454619784
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415138738,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 26,
+          "servo_high_us": 542,
+          "servo_requests": 2,
+          "received": 6602.506335608
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415187717,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 28,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6602.553707648
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415238732,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 31,
+          "servo_high_us": 543,
+          "servo_requests": 2,
+          "received": 6602.60318189
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415287716,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 33,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6602.65289215
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415338734,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 36,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6602.704983908
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415387717,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 38,
+          "servo_high_us": 541,
+          "servo_requests": 2,
+          "received": 6602.753937767
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415438743,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 41,
+          "servo_high_us": 540,
+          "servo_requests": 2,
+          "received": 6602.803297052
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415487477,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 43,
+          "servo_high_us": 541,
+          "servo_requests": 2,
+          "received": 6602.852459545
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415537616,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 46,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6602.902718942
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415587719,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 48,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6602.952527913
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415638737,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 51,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6603.00295978
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415687717,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 53,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6603.053065643
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415738734,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 56,
+          "servo_high_us": 540,
+          "servo_requests": 2,
+          "received": 6603.105133321
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415787717,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 58,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6603.152743736
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415837721,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 61,
+          "servo_high_us": 540,
+          "servo_requests": 2,
+          "received": 6603.204364902
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415887720,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 63,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6603.25342504
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415938755,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 66,
+          "servo_high_us": 540,
+          "servo_requests": 2,
+          "received": 6603.303400402
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 415987722,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 68,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6603.352619947
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416038738,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 71,
+          "servo_high_us": 541,
+          "servo_requests": 2,
+          "received": 6603.403498563
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416088323,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 73,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6603.454246255
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416138742,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 76,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6603.503753665
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416187322,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 78,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6603.553320987
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416238741,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 81,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6603.604029708
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416287319,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 83,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6603.654479676
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416337724,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 86,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6603.705864957
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416387720,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 88,
+          "servo_high_us": 541,
+          "servo_requests": 2,
+          "received": 6603.753904724
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416438621,
+          "battery_adc_raw": 2504,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 91,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6603.803808963
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416487476,
+          "battery_adc_raw": 2496,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 93,
+          "servo_high_us": 542,
+          "servo_requests": 2,
+          "received": 6603.853961707
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416538738,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 96,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6603.904545398
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416587718,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 98,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6603.956780784
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416638612,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 101,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6604.005425135
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416687479,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 103,
+          "servo_high_us": 542,
+          "servo_requests": 2,
+          "received": 6604.053327975
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416738732,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 106,
+          "servo_high_us": 540,
+          "servo_requests": 2,
+          "received": 6604.104528004
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416787719,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 108,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6604.153048841
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416838731,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 111,
+          "servo_high_us": 540,
+          "servo_requests": 2,
+          "received": 6604.203719632
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416887720,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 113,
+          "servo_high_us": 542,
+          "servo_requests": 2,
+          "received": 6604.253147757
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416938739,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 116,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6604.304794602
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 416987718,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 118,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6604.354158058
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417038738,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 121,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6604.406248513
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417087720,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 123,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6604.454457137
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417138731,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 126,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6604.505139972
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417187322,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 128,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6604.554835024
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417238732,
+          "battery_adc_raw": 2496,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 131,
+          "servo_high_us": 540,
+          "servo_requests": 2,
+          "received": 6604.604205596
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417287719,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 133,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6604.653349507
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417337729,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 136,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6604.703458688
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417387719,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 138,
+          "servo_high_us": 542,
+          "servo_requests": 2,
+          "received": 6604.755335435
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417438742,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 141,
+          "servo_high_us": 541,
+          "servo_requests": 2,
+          "received": 6604.80546487
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417487719,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 143,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6604.853514987
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417537738,
+          "battery_adc_raw": 2496,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 146,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6604.904064072
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417587719,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 148,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6604.955423404
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417637729,
+          "battery_adc_raw": 2489,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 151,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.003669514
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417687719,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 153,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.054412634
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417737734,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 156,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.104919694
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417787719,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 158,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.154859452
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417838742,
+          "battery_adc_raw": 2504,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 161,
+          "servo_high_us": 541,
+          "servo_requests": 2,
+          "received": 6605.205152261
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417887718,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 163,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.254250732
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417937733,
+          "battery_adc_raw": 2504,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 166,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.303954228
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 417987719,
+          "battery_adc_raw": 2504,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 168,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.354271477
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418037729,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 171,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.404589893
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418087719,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 173,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.457226779
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418138738,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 176,
+          "servo_high_us": 540,
+          "servo_requests": 2,
+          "received": 6605.506329734
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418187322,
+          "battery_adc_raw": 2504,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 178,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6605.554637593
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418237729,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 181,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.606805401
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418287719,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 183,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.655038441
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418338737,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 186,
+          "servo_high_us": 539,
+          "servo_requests": 2,
+          "received": 6605.70764633
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418387718,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 188,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.756941411
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418438742,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 191,
+          "servo_high_us": 540,
+          "servo_requests": 2,
+          "received": 6605.807216562
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418487718,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 193,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.85634214
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418537732,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 196,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.904260465
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418588329,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 198,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6605.955969404
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418638745,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 201,
+          "servo_high_us": 540,
+          "servo_requests": 2,
+          "received": 6606.005729617
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418687718,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 203,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.055738112
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418737733,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 206,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.1057667
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418787719,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 208,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.154338052
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418837738,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 211,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.207593415
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418887720,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 213,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.257364576
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418938748,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 216,
+          "servo_high_us": 540,
+          "servo_requests": 2,
+          "received": 6606.306387082
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 418987719,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 218,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.355497021
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419037738,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 221,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.40655031
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419087719,
+          "battery_adc_raw": 2494,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 223,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.455805952
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419138742,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 226,
+          "servo_high_us": 541,
+          "servo_requests": 2,
+          "received": 6606.506534837
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419187720,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 228,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.556884791
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419237729,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 231,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.605829164
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419287719,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 233,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.654495824
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419337481,
+          "battery_adc_raw": 2500,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 236,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.705060404
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419387720,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 238,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.75541523
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419437734,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 241,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.80853521
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419487721,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 243,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.857337846
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419537738,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 246,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.906878483
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419587719,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 248,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6606.955565672
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419637738,
+          "battery_adc_raw": 2500,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 251,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6607.005117241
+        }
+      ]
+    },
+    {
+      "direction": "lift_down",
+      "verified": true,
+      "physical_motion_verified": false,
+      "expected_us": 400,
+      "samples": [
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 540,
+          "board_us": 419687719,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 253,
+          "servo_high_us": 538,
+          "servo_requests": 2,
+          "received": 6607.058469024
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 419738757,
+          "battery_adc_raw": 2490,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 256,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6607.107042101
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 419787721,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 258,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.154716868
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 419838742,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 261,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6607.20578983
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 419887716,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 263,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.255255994
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 419937721,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 266,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.306238434
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 419987720,
+          "battery_adc_raw": 2496,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 268,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.358806069
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420038737,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 271,
+          "servo_high_us": 399,
+          "servo_requests": 3,
+          "received": 6607.413676146
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420087719,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 273,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.460570043
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420137723,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 276,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.506100622
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420187719,
+          "battery_adc_raw": 2505,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 278,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.556111847
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420237741,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 281,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.605539568
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420287719,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 283,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.660420151
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420337738,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 286,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.705644945
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420387719,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 288,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.757407532
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420437481,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 291,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.807885114
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420487721,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 293,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.855080165
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420538737,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 296,
+          "servo_high_us": 402,
+          "servo_requests": 3,
+          "received": 6607.909946723
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420587719,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 298,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6607.955844819
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420637716,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 301,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6608.007973552
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420687719,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 303,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6608.059700501
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420737718,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 306,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6608.107367514
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420787720,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 308,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6608.156258312
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420837720,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 311,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6608.208801752
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420887719,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 313,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6608.255669725
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420937718,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 316,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6608.313910345
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 420987717,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 318,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6608.36585864
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421037585,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 321,
+          "servo_high_us": 402,
+          "servo_requests": 3,
+          "received": 6608.42231466
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421087720,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 323,
+          "servo_high_us": 399,
+          "servo_requests": 3,
+          "received": 6608.481163745
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421138745,
+          "battery_adc_raw": 2505,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 326,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6608.519277948
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421187483,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 328,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6608.568184382
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421238745,
+          "battery_adc_raw": 2496,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 331,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6608.624968235
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421288755,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 333,
+          "servo_high_us": 399,
+          "servo_requests": 3,
+          "received": 6608.668634227
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421338751,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 336,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6608.711985427
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421387483,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 338,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6608.758621566
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421437720,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 341,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6608.812729334
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421488329,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 343,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6608.864119203
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421538741,
+          "battery_adc_raw": 2494,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 346,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6608.908891154
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421587717,
+          "battery_adc_raw": 2505,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 348,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6608.963767414
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421638744,
+          "battery_adc_raw": 2496,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 351,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6609.009663906
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421687719,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 353,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.055742938
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421737720,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 356,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.105651419
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421787719,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 358,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.158151717
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421837720,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 361,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.20594314
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421887483,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 363,
+          "servo_high_us": 359,
+          "servo_requests": 3,
+          "received": 6609.256196408
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421937718,
+          "battery_adc_raw": 2496,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 366,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.306377985
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 421987718,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 368,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.356744182
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422037718,
+          "battery_adc_raw": 2496,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 371,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.408613425
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422088759,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 373,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.467425642
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422137484,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 376,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.504886754
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422187726,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 378,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.556824151
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422237716,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 381,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.609844409
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422287719,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 383,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.656269741
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422337736,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 386,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.708231017
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422387480,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 388,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.763529982
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422438732,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 391,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.814050178
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422487716,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 393,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.857119851
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422538739,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 396,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6609.911599288
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422587483,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 398,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6609.955958302
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422637739,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 401,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.00647031
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422687721,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 403,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.061967738
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422737730,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 406,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.10926566
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422787719,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 408,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.161062386
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422837722,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 411,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.207184671
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422887481,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 413,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.273593239
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422937475,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 416,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.310813837
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 422987720,
+          "battery_adc_raw": 2504,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 418,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.378584396
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423037721,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 421,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.408063235
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423087626,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 423,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.472748091
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423138319,
+          "battery_adc_raw": 2504,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 426,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6610.519147683
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423187722,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 428,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.560992232
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423237719,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 431,
+          "servo_high_us": 399,
+          "servo_requests": 3,
+          "received": 6610.607155437
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423287718,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 433,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.659537897
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423337719,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 436,
+          "servo_high_us": 402,
+          "servo_requests": 3,
+          "received": 6610.715632957
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423387639,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 438,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.761357287
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423437722,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 441,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.809938306
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423487719,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 443,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.864481391
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423537736,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 446,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6610.919132509
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423588327,
+          "battery_adc_raw": 2504,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 448,
+          "servo_high_us": 401,
+          "servo_requests": 3,
+          "received": 6610.963795754
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423637720,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 451,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6611.019141715
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423687722,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 453,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.062679848
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423737735,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 456,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.118031406
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423788329,
+          "battery_adc_raw": 2504,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 458,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.16917552
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423837719,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 461,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.214942659
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423888688,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 463,
+          "servo_high_us": 401,
+          "servo_requests": 3,
+          "received": 6611.264363855
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423938318,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 466,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.312264779
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 423987720,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 468,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.35645915
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424038738,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 471,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6611.415857369
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424087719,
+          "battery_adc_raw": 2504,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 473,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6611.462832642
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424137739,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 476,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.512160165
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424187481,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 478,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6611.575664375
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424237619,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 481,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6611.610047527
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424287688,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 483,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6611.660187931
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424337712,
+          "battery_adc_raw": 2496,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 486,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.726176149
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424387725,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 488,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.767753311
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424438324,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 491,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.810581433
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424488740,
+          "battery_adc_raw": 2502,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 493,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.861204465
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424537750,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 496,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.914716167
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424587722,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 498,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6611.963321721
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424637722,
+          "battery_adc_raw": 2501,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 501,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6612.011955135
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424687717,
+          "battery_adc_raw": 2503,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 503,
+          "servo_high_us": 398,
+          "servo_requests": 3,
+          "received": 6612.061470085
+        },
+        {
+          "firmware": "dase-rc-0.9",
+          "armed": true,
+          "watchdog_timeout": false,
+          "pwm": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "encoders": [
+            -3457,
+            2126,
+            -4496,
+            2888
+          ],
+          "servo_us": 400,
+          "board_us": 424737719,
+          "battery_adc_raw": 2495,
+          "wd_command_us": 267646613,
+          "wd_stop_us": 267898666,
+          "wd_settled_us": 268268510,
+          "wd_encoders": [
+            -3338,
+            2971,
+            -3536,
+            2995
+          ],
+          "servo_active": true,
+          "servo_edges": 506,
+          "servo_high_us": 400,
+          "servo_requests": 3,
+          "received": 6612.110318146
+        }
+      ]
+    }
+  ],
+  "final": {
+    "firmware": "dase-rc-0.9",
+    "armed": false,
+    "watchdog_timeout": false,
+    "pwm": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "encoders": [
+      -3457,
+      2126,
+      -4496,
+      2888
+    ],
+    "servo_us": 400,
+    "board_us": 425037735,
+    "battery_adc_raw": 2501,
+    "wd_command_us": 267646613,
+    "wd_stop_us": 267898666,
+    "wd_settled_us": 268268510,
+    "wd_encoders": [
+      -3338,
+      2971,
+      -3536,
+      2995
+    ],
+    "servo_active": true,
+    "servo_edges": 521,
+    "servo_high_us": 398,
+    "servo_requests": 3,
+    "received": 6612.421147998
+  }
+}

@@ -1,0 +1,76 @@
+test_failed_action_cancels_mission (test_control.MissionTests.test_failed_action_cancels_mission) ... ok
+test_full_two_rack_flow (test_control.MissionTests.test_full_two_rack_flow) ... ok
+test_invalid_team_configuration (test_control.MissionTests.test_invalid_team_configuration) ... ok
+test_no_delivery_without_end_and_retreat (test_control.MissionTests.test_no_delivery_without_end_and_retreat) ... ok
+test_no_movement_before_start (test_control.MissionTests.test_no_movement_before_start) ... ok
+test_old_action_completion_ignored (test_control.MissionTests.test_old_action_completion_ignored) ... ok
+test_stage_timeout (test_control.MissionTests.test_stage_timeout) ... ok
+test_timeout_holds_loaded_rack (test_control.MissionTests.test_timeout_holds_loaded_rack) ... ok
+test_wrong_team_or_wrong_rack_ignored (test_control.MissionTests.test_wrong_team_or_wrong_rack_ignored) ... ok
+test_consecutive_frames_required (test_control.QRTests.test_consecutive_frames_required) ... ok
+test_evidence_only_deduplicated_after_success (test_control.QRTests.test_evidence_only_deduplicated_after_success) ... ok
+test_invalid_payloads_rejected (test_control.QRTests.test_invalid_payloads_rejected) ... ok
+test_missing_frame_resets_confirmation (test_control.QRTests.test_missing_frame_resets_confirmation) ... ok
+test_official_samples (test_control.QRTests.test_official_samples) ... ok
+test_old_frames_not_combined (test_control.QRTests.test_old_frames_not_combined) ... ok
+test_braking_margin_is_enforced (test_control.SafetyTests.test_braking_margin_is_enforced) ... ok
+test_command_watchdog_latches_disarm (test_control.SafetyTests.test_command_watchdog_latches_disarm) ... ok
+test_estop_cannot_auto_resume (test_control.SafetyTests.test_estop_cannot_auto_resume) ... ok
+test_fresh_sensors_and_arm_enable_command (test_control.SafetyTests.test_fresh_sensors_and_arm_enable_command) ... ok
+test_incomplete_scan_stops (test_control.SafetyTests.test_incomplete_scan_stops) ... ok
+test_invalid_scan_cannot_arm (test_control.SafetyTests.test_invalid_scan_cannot_arm) ... ok
+test_lateral_or_rotation_near_obstacle_stops (test_control.SafetyTests.test_lateral_or_rotation_near_obstacle_stops) ... ok
+test_nonfinite_commands_stop (test_control.SafetyTests.test_nonfinite_commands_stop) ... ok
+test_safety_parameters_reject_nan (test_control.SafetyTests.test_safety_parameters_reject_nan) ... ok
+test_sensor_dropout_latches_disarm (test_control.SafetyTests.test_sensor_dropout_latches_disarm) ... ok
+test_stale_command_not_replayed_after_rearm (test_control.SafetyTests.test_stale_command_not_replayed_after_rearm) ... ok
+test_startup_never_moves (test_control.SafetyTests.test_startup_never_moves) ... ok
+test_vector_speed_is_limited (test_control.SafetyTests.test_vector_speed_is_limited) ... ok
+test_first_partial_turn_discarded_and_clockwise_converted (test_lidar.AssemblerTests.test_first_partial_turn_discarded_and_clockwise_converted) ... ok
+test_gap_discards_scan (test_lidar.AssemblerTests.test_gap_discards_scan) ... ok
+test_crc_known_polynomial_table_entries (test_lidar.ParserTests.test_crc_known_polynomial_table_entries) ... ok
+test_crc_recovery (test_lidar.ParserTests.test_crc_recovery) ... ok
+test_low_confidence_is_unknown (test_lidar.ParserTests.test_low_confidence_is_unknown) ... ok
+test_partial_frame_with_noise (test_lidar.ParserTests.test_partial_frame_with_noise) ... ok
+test_reject_impossible_sweep (test_lidar.ParserTests.test_reject_impossible_sweep) ... ok
+test_split_header_retained (test_lidar.ParserTests.test_split_header_retained) ... ok
+test_wrap_interpolation (test_lidar.ParserTests.test_wrap_interpolation) ... ok
+test_zero_measurement_is_unknown (test_lidar.ParserTests.test_zero_measurement_is_unknown) ... ok
+test_arm_discards_old_command (test_manual.ManualTests.test_arm_discards_old_command) ... ok
+test_command_loss_latches_disarm (test_manual.ManualTests.test_command_loss_latches_disarm) ... ok
+test_diagonal_speed_is_bounded (test_manual.ManualTests.test_diagonal_speed_is_bounded) ... ok
+test_emergency_stop_requires_new_arm (test_manual.ManualTests.test_emergency_stop_requires_new_arm) ... ok
+test_feedback_loss_latches_disarm (test_manual.ManualTests.test_feedback_loss_latches_disarm) ... ok
+test_invalid_command_disarms (test_manual.ManualTests.test_invalid_command_disarms) ... ok
+test_invalid_limits (test_manual.ManualTests.test_invalid_limits) ... ok
+test_negative_clock_age_is_not_fresh (test_manual.ManualTests.test_negative_clock_age_is_not_fresh) ... ok
+test_requires_controller_feedback (test_manual.ManualTests.test_requires_controller_feedback) ... ok
+test_starts_locked (test_manual.ManualTests.test_starts_locked) ... ok
+test_default_cannot_arm (test_remote_control.RemoteTests.test_default_cannot_arm) ... ok
+test_lift_blocks_driving (test_remote_control.RemoteTests.test_lift_blocks_driving) ... ok
+test_nonfinite_command_stops (test_remote_control.RemoteTests.test_nonfinite_command_stops) ... ok
+test_old_lease_cannot_control_after_rearm (test_remote_control.RemoteTests.test_old_lease_cannot_control_after_rearm) ... ok
+test_out_of_order_packet_rejected (test_remote_control.RemoteTests.test_out_of_order_packet_rejected) ... ok
+test_stale_network_packet_stops (test_remote_control.RemoteTests.test_stale_network_packet_stops) ... ok
+test_stop_cancels_unpublished_lift (test_remote_control.RemoteTests.test_stop_cancels_unpublished_lift) ... ok
+test_uncalibrated_lift_cannot_move (test_remote_control.RemoteTests.test_uncalibrated_lift_cannot_move) ... ok
+test_valid_move_and_timeout (test_remote_control.RemoteTests.test_valid_move_and_timeout) ... ok
+test_namespaced_sensor_command_and_watchdog_chain (test_ros_safety.ROSSafetyTests.test_namespaced_sensor_command_and_watchdog_chain) ... [INFO] [1795072743.495610062] [isolated_safety_verification.safety_gate]: {"armed": false, "estop": true, "reason": "emergency_stop"}
+[INFO] [1795072743.523358251] [isolated_safety_verification.safety_gate]: {"armed": false, "estop": false, "reason": "disarmed"}
+[INFO] [1795072743.571145923] [isolated_safety_verification.safety_gate]: {"armed": true, "estop": false, "reason": "running"}
+[INFO] [1795072743.823514578] [isolated_safety_verification.safety_gate]: {"armed": false, "estop": false, "reason": "command_stale"}
+ok
+test_all_drive_acceptance_flags_required (test_web_server.WebTests.test_all_drive_acceptance_flags_required) ... ok
+test_expired_session_denies_camera (test_web_server.WebTests.test_expired_session_denies_camera) ... ok
+test_lateral_is_rejected_and_latched (test_web_server.WebTests.test_lateral_is_rejected_and_latched) ... ok
+test_login_and_locked_hardware (test_web_server.WebTests.test_login_and_locked_hardware) ... ok
+test_login_rate_limit_and_invalid_body (test_web_server.WebTests.test_login_rate_limit_and_invalid_body) ... ok
+test_logout_revokes_cookie (test_web_server.WebTests.test_logout_revokes_cookie) ... ok
+test_reject_cross_site_and_dns_rebinding (test_web_server.WebTests.test_reject_cross_site_and_dns_rebinding) ... ok
+test_stale_camera_and_snapshot_path (test_web_server.WebTests.test_stale_camera_and_snapshot_path) ... ok
+test_two_sessions_cannot_replace_active_driver (test_web_server.WebTests.test_two_sessions_cannot_replace_active_driver) ... ok
+
+----------------------------------------------------------------------
+Ran 67 tests in 12.675s
+
+OK

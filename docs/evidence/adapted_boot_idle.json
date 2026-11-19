@@ -1,0 +1,1246 @@
+{
+  "sample_count": 62,
+  "samples": [
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 12672213,
+      "received": 1430.461964567
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 12722204,
+      "received": 1430.511485275
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 12772213,
+      "received": 1430.561309628
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 12822204,
+      "received": 1430.611231562
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 12872213,
+      "received": 1430.661197289
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 12922204,
+      "received": 1430.711724642
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 12972213,
+      "received": 1430.761164021
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13022204,
+      "received": 1430.811613617
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13072212,
+      "received": 1430.861195777
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13122204,
+      "received": 1430.914368159
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13172213,
+      "received": 1430.961302124
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13222204,
+      "received": 1431.011123035
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13272213,
+      "received": 1431.061163373
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13322204,
+      "received": 1431.111035609
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13372213,
+      "received": 1431.161056864
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13422204,
+      "received": 1431.210951867
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13472213,
+      "received": 1431.260966569
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13522204,
+      "received": 1431.310870364
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13572213,
+      "received": 1431.360922325
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13622204,
+      "received": 1431.411063002
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13672213,
+      "received": 1431.460911287
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13722204,
+      "received": 1431.511759073
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13772212,
+      "received": 1431.560915001
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13822204,
+      "received": 1431.610992931
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13872213,
+      "received": 1431.660938557
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13922204,
+      "received": 1431.710886145
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 13972213,
+      "received": 1431.760898589
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14022204,
+      "received": 1431.81074954
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14072213,
+      "received": 1431.86093623
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14122204,
+      "received": 1431.912076721
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14172213,
+      "received": 1431.960875032
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14222204,
+      "received": 1432.01058211
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14272212,
+      "received": 1432.060593111
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14322204,
+      "received": 1432.110898168
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14372213,
+      "received": 1432.160721688
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14422204,
+      "received": 1432.210631239
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14472213,
+      "received": 1432.260513415
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14522204,
+      "received": 1432.310782787
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14572213,
+      "received": 1432.360529623
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14622204,
+      "received": 1432.412602925
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14672213,
+      "received": 1432.460543128
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14722204,
+      "received": 1432.510560884
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14772213,
+      "received": 1432.560531794
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14822204,
+      "received": 1432.61045767
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14872213,
+      "received": 1432.660455289
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14922204,
+      "received": 1432.710634038
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 14972213,
+      "received": 1432.760322608
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15022204,
+      "received": 1432.810558662
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15072213,
+      "received": 1432.86068455
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15122204,
+      "received": 1432.910442825
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15172213,
+      "received": 1432.960266289
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15222204,
+      "received": 1433.010388475
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15272213,
+      "received": 1433.060151729
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15322204,
+      "received": 1433.110364277
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15372213,
+      "received": 1433.160127753
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15422204,
+      "received": 1433.210315202
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15472213,
+      "received": 1433.260283095
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15522204,
+      "received": 1433.310157885
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15572213,
+      "received": 1433.360161852
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15622204,
+      "received": 1433.410242244
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15672213,
+      "received": 1433.460136025
+    },
+    {
+      "firmware": "dase-rc-0.1",
+      "armed": false,
+      "watchdog_timeout": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "encoders": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "servo_us": 0,
+      "board_us": 15722204,
+      "received": 1433.5101548
+    }
+  ],
+  "idle_verified": true
+}

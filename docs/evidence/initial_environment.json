@@ -1,0 +1,66 @@
+{
+  "timestamp_utc": "2026-11-19T04:02:47.799474+00:00",
+  "architecture": "aarch64",
+  "kernel": "6.8.0-1047-raspi",
+  "ros_setup_exists": false,
+  "ros_distro": null,
+  "groups": {
+    "returncode": 0,
+    "output": "rsi-bd-04 adm cdrom sudo dip plugdev users lpadmin sambashare"
+  },
+  "usb": {
+    "returncode": 0,
+    "output": "Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\nBus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\nBus 002 Device 002: ID 17ef:608c Lenovo Lenovo Calliope USB Keyboard\nBus 003 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub\nBus 004 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub\nBus 004 Device 002: ID 0b05:184c ASUSTek Computer, Inc. 802.11ac NIC\nBus 004 Device 003: ID 413c:301a Dell Computer Corp. Dell MS116 Optical Mouse\nBus 005 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub"
+  },
+  "serial_devices": [],
+  "serial_fallback": [],
+  "camera_sensors": {
+    "10-001a": "imx708"
+  },
+  "video_devices": {
+    "video37": "pispbe-config",
+    "video27": "pispbe-stitch_output",
+    "video7": "rp1-cfe-fe_config",
+    "video35": "pispbe-tdn_output",
+    "video25": "pispbe-output1",
+    "video5": "rp1-cfe-fe_image1",
+    "video33": "pispbe-output0",
+    "video23": "pispbe-hog_output",
+    "video3": "rp1-cfe-csi2_ch3",
+    "video31": "pispbe-stitch_input",
+    "video21": "pispbe-tdn_input",
+    "video1": "rp1-cfe-embedded",
+    "video28": "pispbe-config",
+    "video36": "pispbe-stitch_output",
+    "video26": "pispbe-tdn_output",
+    "video6": "rp1-cfe-fe_stats",
+    "video34": "pispbe-output1",
+    "video24": "pispbe-output0",
+    "video4": "rp1-cfe-fe_image0",
+    "video32": "pispbe-hog_output",
+    "video22": "pispbe-stitch_input",
+    "video2": "rp1-cfe-csi2_ch2",
+    "video30": "pispbe-tdn_input",
+    "video20": "pispbe-input",
+    "video0": "rp1-cfe-csi2_ch0",
+    "video29": "pispbe-input",
+    "video19": "rpivid"
+  },
+  "python_modules": {
+    "yaml": true,
+    "cv2": false,
+    "numpy": false,
+    "serial": true,
+    "rclpy": false,
+    "pyzbar": false
+  },
+  "programs": {
+    "colcon": null,
+    "ros2": null,
+    "cam": null,
+    "rpicam-hello": null,
+    "git": "/usr/bin/git",
+    "cmake": null,
+    "meson": null
+  }
+}

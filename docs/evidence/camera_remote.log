@@ -1,0 +1,99 @@
+[1:10:53.340836815] [13332]  INFO Camera camera_manager.cpp:340 libcamera v0.0.0+1-670581c2
+[1:10:53.416139648] [13403]  INFO RPI pisp.cpp:725 libpisp version v1.5.0 86d71c805c3f 19-11-2026 (04:50:22)
+[1:10:53.529763498] [13403]  INFO IPAProxy ipa_proxy.cpp:184 Using tuning file /home/rsi-bd-04/Documents/ChatGPT/dase7503/camera_ws/install/libcamera/share/libcamera/ipa/rpi/pisp/imx708.json
+[1:10:53.546732025] [13403]  INFO Camera camera_manager.cpp:223 Adding camera '/base/axi/pcie@120000/rp1/i2c@88000/imx708@1a' for pipeline handler rpi/pisp
+[1:10:53.546846121] [13403]  INFO RPI pisp.cpp:1186 Registered camera /base/axi/pcie@120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media1 and ISP device /dev/media0 using PiSP variant BCM2712_D0
+[INFO] [1795072393.199847423] [camera]: 
+>> cameras:
+   0: imx708 (/base/axi/pcie@120000/rp1/i2c@88000/imx708@1a)
+[WARN] [1795072393.200043589] [camera]: no camera selected, using default: "/base/axi/pcie@120000/rp1/i2c@88000/imx708@1a"
+[WARN] [1795072393.200072465] [camera]: set parameter 'camera' to silence this warning
+[1:10:53.549528444] [13403]  WARN V4L2 v4l2_pixelformat.cpp:350 Unsupported V4L2 pixel format RPBP
+[INFO] [1795072393.202633592] [camera]: 
+>> stream formats:
+   - R8 (32x32 - 4608x2592)
+   - R16 (32x32 - 4608x2592)
+   - MONO_PISP_COMP1 (32x32 - 4608x2592)
+   - NV21 (32x32 - 4608x2592)
+   - SBGGR8 (32x32 - 4608x2592)
+   - SBGGR16 (32x32 - 4608x2592)
+   - BGGR_PISP_COMP1 (32x32 - 4608x2592)
+   - XBGR8888 (32x32 - 4608x2592)
+   - BGR888 (32x32 - 4608x2592)
+   - RGB888 (32x32 - 4608x2592)
+   - XRGB8888 (32x32 - 4608x2592)
+   - SGBRG16 (32x32 - 4608x2592)
+   - GBRG_PISP_COMP1 (32x32 - 4608x2592)
+   - SGRBG16 (32x32 - 4608x2592)
+   - GRBG_PISP_COMP1 (32x32 - 4608x2592)
+   - SRGGB16 (32x32 - 4608x2592)
+   - RGGB_PISP_COMP1 (32x32 - 4608x2592)
+   - BGR161616 (32x32 - 4608x2592)
+   - RGB161616 (32x32 - 4608x2592)
+   - SRGGB8 (32x32 - 4608x2592)
+   - SGRBG8 (32x32 - 4608x2592)
+   - SGBRG8 (32x32 - 4608x2592)
+   - YUYV (32x32 - 4608x2592)
+   - UYVY (32x32 - 4608x2592)
+[INFO] [1795072393.202854446] [camera]: 
+>> BGR888 format sizes:
+   - 160x120
+   - 240x160
+   - 320x240
+   - 400x240
+   - 480x320
+   - 640x360
+   - 640x480
+   - 720x480
+   - 768x480
+   - 854x480
+   - 720x576
+   - 800x600
+   - 960x540
+   - 1024x576
+   - 960x640
+   - 1024x600
+   - 1024x768
+   - 1280x720
+   - 1152x864
+   - 1280x800
+   - 1360x768
+   - 1366x768
+   - 1440x900
+   - 1280x1024
+   - 1536x864
+   - 1280x1080
+   - 1600x900
+   - 1400x1050
+   - 1680x1050
+   - 1600x1200
+   - 1920x1080
+   - 2048x1080
+   - 1920x1200
+   - 2160x1080
+   - 2048x1152
+   - 2560x1080
+   - 2048x1536
+   - 2560x1440
+   - 2560x1600
+   - 3840x1080
+   - 2960x1440
+   - 3440x1440
+   - 2560x2048
+   - 3200x1800
+   - 3840x1600
+   - 3200x2048
+   - 3200x2400
+   - 3840x2160
+   - 4096x2160
+   - 3840x2400
+[1:10:53.555151845] [13332]  INFO Camera camera.cpp:1216 configuring streams: (0) 1280x720-BGR888/sRGB
+[1:10:53.556233166] [13403]  INFO RPI pisp.cpp:1502 Sensor: /base/axi/pcie@120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 1536x864-SBGGR10_1X10/RAW - Selected CFE format: 1536x864-PC1B/RAW
+[INFO] [1795072393.212023306] [camera]: camera "/base/axi/pcie@120000/rp1/i2c@88000/imx708@1a" configured with 1280x720-BGR888/sRGB stream
+[INFO] [1795072393.212195952] [camera]: using default calibration URL
+[INFO] [1795072393.212253538] [camera]: camera calibration URL: file:///home/rsi-bd-04/.ros/camera_info/imx708__base_axi_pcie_120000_rp1_i2c_88000_imx708_1a_1280x720.yaml
+[ERROR] [1795072393.212608560] [camera_calibration_parsers]: Unable to open camera calibration file [/home/rsi-bd-04/.ros/camera_info/imx708__base_axi_pcie_120000_rp1_i2c_88000_imx708_1a_1280x720.yaml]
+[WARN] [1795072393.212709053] [camera]: Camera calibration file /home/rsi-bd-04/.ros/camera_info/imx708__base_axi_pcie_120000_rp1_i2c_88000_imx708_1a_1280x720.yaml not found
+[WARN] [1795072393.216788945] [camera]: unsupported control: AfWindows (37)
+[1:10:53.612101164] [13410]  WARN IPARPI ipa_base.cpp:1414 Could not set AF_TRIGGER - no AF algorithm or not Auto
+[1:10:54.562731213] [13410]  WARN IPARPI ipa_base.cpp:1414 Could not set AF_TRIGGER - no AF algorithm or not Auto

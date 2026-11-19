@@ -1,0 +1,8 @@
+test_http_handshake_pwm_lift_and_client_timeout (test_ros_web_pwm.WebPWMIntegration.test_http_handshake_pwm_lift_and_client_timeout) ... [INFO] [1795077325.847636158] [phone_remote]: 手机界面已启动，端口 38063；口令保存在 /tmp/tmpyjjmplwk/password
+[INFO] [1795077325.848860991] [phone_remote]: 运动许可：True
+ok
+
+----------------------------------------------------------------------
+Ran 1 test in 7.262s
+
+OK

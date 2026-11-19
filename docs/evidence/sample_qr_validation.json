@@ -1,0 +1,22 @@
+{
+  "source": "4.+DASE7503_Appendix.Samples+of+QR+codes.pdf",
+  "sample_validation_only": true,
+  "found": [
+    "END",
+    "RACKA_4X6M",
+    "RACKB_AM9L",
+    "RACKC_K8Y3",
+    "RACKD_R983",
+    "START"
+  ],
+  "expected": [
+    "END",
+    "RACKA_4X6M",
+    "RACKB_AM9L",
+    "RACKC_K8Y3",
+    "RACKD_R983",
+    "START"
+  ],
+  "success": true,
+  "note": "验证课程 PDF 样本解码，不是摄像头采集或本组比赛识别证据。"
+}

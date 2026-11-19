@@ -1,0 +1,20 @@
+test_assembled_vehicle_calibration_and_board_limit (test_drive_pwm.DrivePWMTests.test_assembled_vehicle_calibration_and_board_limit) ... ok
+test_combined_motion_preserves_ratio_under_saturation (test_drive_pwm.DrivePWMTests.test_combined_motion_preserves_ratio_under_saturation) ... ok
+test_forward_and_reverse_have_consistent_physical_directions (test_drive_pwm.DrivePWMTests.test_forward_and_reverse_have_consistent_physical_directions) ... ok
+test_invalid_or_unverified_requests_are_rejected (test_drive_pwm.DrivePWMTests.test_invalid_or_unverified_requests_are_rejected) ... ok
+test_positive_yaw_moves_right_side_forward (test_drive_pwm.DrivePWMTests.test_positive_yaw_moves_right_side_forward) ... ok
+test_stop_is_zero (test_drive_pwm.DrivePWMTests.test_stop_is_zero) ... ok
+test_board_timeout_locks_instead_of_auto_rearming (test_pwm_bridge.BridgeTests.test_board_timeout_locks_instead_of_auto_rearming) ... ok
+test_feedback_loss_sends_zero_and_disarm (test_pwm_bridge.BridgeTests.test_feedback_loss_sends_zero_and_disarm) ... ok
+test_lift_waits_for_stationary_encoder_feedback (test_pwm_bridge.BridgeTests.test_lift_waits_for_stationary_encoder_feedback) ... ok
+test_malformed_status_does_not_enable_controller (test_pwm_bridge.BridgeTests.test_malformed_status_does_not_enable_controller) ... ok
+test_reboot_and_duplicate_clock_are_not_fresh_feedback (test_pwm_bridge.BridgeTests.test_reboot_and_duplicate_clock_are_not_fresh_feedback) ... ok
+test_requires_actual_arm_ack_before_nonzero (test_pwm_bridge.BridgeTests.test_requires_actual_arm_ack_before_nonzero) ... ok
+test_http_handshake_pwm_lift_and_client_timeout (test_ros_web_pwm.WebPWMIntegration.test_http_handshake_pwm_lift_and_client_timeout) ... [INFO] [1795079261.526260639] [phone_remote]: 手机界面已启动，端口 39167；口令保存在 /tmp/tmp6pjuloft/password
+[INFO] [1795079261.527866222] [phone_remote]: 运动许可：True
+ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 5.650s
+
+OK

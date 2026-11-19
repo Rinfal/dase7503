@@ -1,0 +1,410 @@
+{
+  "axis": "cw",
+  "duration": 2.0,
+  "linear_speed": 0.03,
+  "angular_speed": 0.35,
+  "samples": [
+    {
+      "monotonic": 1350.344032787,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1350.435799127,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1350.524260124,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1350.647662112,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1350.734943525,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1350.808309212,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1350.887370672,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1350.977852367,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1351.062770042,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1351.152595163,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1351.242022585,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1351.370580361,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1351.447944046,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1351.530100509,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1351.610928368,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1351.700392202,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1351.786080936,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1351.872055053,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1351.962158321,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1352.088987942,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1352.167890705,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1352.248947713,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1352.328582866,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1352.417218659,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1352.502426868,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1352.591619594,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1352.681578583,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1352.807298788,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1352.886943478,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1352.966534046,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1353.048803719,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1353.136586621,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1353.221337401,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1353.311432546,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1353.400929285,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1353.528327092,
+      "forward": -0.0036249998956918716,
+      "lateral": 0.0,
+      "angular": -0.031521737575531006
+    },
+    {
+      "monotonic": 1353.609213636,
+      "forward": 0.0036249998956918716,
+      "lateral": 0.0,
+      "angular": -0.031521737575531006
+    },
+    {
+      "monotonic": 1353.699865407,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1353.773111003,
+      "forward": 0.007249999791383743,
+      "lateral": 0.0,
+      "angular": -0.06304347515106201
+    },
+    {
+      "monotonic": 1353.856168341,
+      "forward": -0.0036249998956918716,
+      "lateral": 0.0,
+      "angular": -0.15760868787765503
+    },
+    {
+      "monotonic": 1353.940693548,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": -0.37826085090637207
+    },
+    {
+      "monotonic": 1354.034885456,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": -0.44130435585975647
+    },
+    {
+      "monotonic": 1354.120954424,
+      "forward": -0.007249999791383743,
+      "lateral": 0.0,
+      "angular": -0.31521737575531006
+    },
+    {
+      "monotonic": 1354.250083956,
+      "forward": 0.0036249998956918716,
+      "lateral": 0.0,
+      "angular": -0.3467390835285187
+    },
+    {
+      "monotonic": 1354.325400467,
+      "forward": -0.007249999791383743,
+      "lateral": 0.0,
+      "angular": -0.31521737575531006
+    },
+    {
+      "monotonic": 1354.408961053,
+      "forward": -0.010874999687075615,
+      "lateral": 0.0,
+      "angular": -0.28369560837745667
+    },
+    {
+      "monotonic": 1354.490354583,
+      "forward": -0.0036249998956918716,
+      "lateral": 0.0,
+      "angular": -0.34673914313316345
+    },
+    {
+      "monotonic": 1354.576701033,
+      "forward": 0.007249999791383743,
+      "lateral": 0.0,
+      "angular": -0.44130435585975647
+    },
+    {
+      "monotonic": 1354.660169327,
+      "forward": 0.014499999582767487,
+      "lateral": 0.0,
+      "angular": -0.5043478012084961
+    },
+    {
+      "monotonic": 1354.755579191,
+      "forward": -0.0036249998956918716,
+      "lateral": 0.0,
+      "angular": -0.34673914313316345
+    },
+    {
+      "monotonic": 1354.840332591,
+      "forward": 0.007249999791383743,
+      "lateral": 0.0,
+      "angular": -0.44130435585975647
+    },
+    {
+      "monotonic": 1354.969396412,
+      "forward": 0.007249999791383743,
+      "lateral": 0.0,
+      "angular": -0.44130435585975647
+    },
+    {
+      "monotonic": 1355.05307131,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": -0.31521737575531006
+    },
+    {
+      "monotonic": 1355.126329259,
+      "forward": -0.007249999791383743,
+      "lateral": 0.0,
+      "angular": -0.25217390060424805
+    },
+    {
+      "monotonic": 1355.207324072,
+      "forward": -0.007249999791383743,
+      "lateral": 0.0,
+      "angular": -0.25217390060424805
+    },
+    {
+      "monotonic": 1355.293597132,
+      "forward": 0.010874999687075615,
+      "lateral": 0.0,
+      "angular": -0.3467390835285187
+    },
+    {
+      "monotonic": 1355.379404632,
+      "forward": 0.014499997720122337,
+      "lateral": 0.0,
+      "angular": -0.4413043260574341
+    },
+    {
+      "monotonic": 1355.46943769,
+      "forward": 0.007249999791383743,
+      "lateral": 0.0,
+      "angular": -0.37826085090637207
+    },
+    {
+      "monotonic": 1355.559244542,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": -0.06304347515106201
+    },
+    {
+      "monotonic": 1355.686601883,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1355.764443344,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1355.844116242,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1355.924014513,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1356.015149394,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1356.099070198,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1356.190269253,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    },
+    {
+      "monotonic": 1356.279824077,
+      "forward": 0.0,
+      "lateral": 0.0,
+      "angular": 0.0
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "observed_utc": "2026-11-19T04:51:00.457315+00:00",
+  "ros_domain_id": "20",
+  "nodes": [
+    {
+      "name": "YB_Car_Node",
+      "namespace": "/",
+      "services": []
+    }
+  ],
+  "topics": {
+    "/battery": {
+      "types": [
+        "std_msgs/msg/UInt16"
+      ],
+      "publishers": [
+        {
+          "node_name": "YB_Car_Node",
+          "node_namespace": "/",
+          "topic_type": "std_msgs/msg/UInt16",
+          "reliability": "RELIABLE",
+          "durability": "VOLATILE"
+        }
+      ],
+      "subscribers": []
+    },
+    "/beep": {
+      "types": [
+        "std_msgs/msg/UInt16"
+      ],
+      "publishers": [],
+      "subscribers": [
+        {
+          "node_name": "YB_Car_Node",
+          "node_namespace": "/",
+          "topic_type": "std_msgs/msg/UInt16",
+          "reliability": "RELIABLE",
+          "durability": "VOLATILE"
+        }
+      ]
+    },
+    "/cmd_vel": {
+      "types": [
+        "geometry_msgs/msg/Twist"
+      ],
+      "publishers": [],
+      "subscribers": [
+        {
+          "node_name": "YB_Car_Node",
+          "node_namespace": "/",
+          "topic_type": "geometry_msgs/msg/Twist",
+          "reliability": "RELIABLE",
+          "durability": "VOLATILE"
+        }
+      ]
+    },
+    "/imu": {
+      "types": [
+        "sensor_msgs/msg/Imu"
+      ],
+      "publishers": [
+        {
+          "node_name": "YB_Car_Node",
+          "node_namespace": "/",
+          "topic_type": "sensor_msgs/msg/Imu",
+          "reliability": "RELIABLE",
+          "durability": "VOLATILE"
+        }
+      ],
+      "subscribers": []
+    },
+    "/odom_raw": {
+      "types": [
+        "nav_msgs/msg/Odometry"
+      ],
+      "publishers": [
+        {
+          "node_name": "YB_Car_Node",
+          "node_namespace": "/",
+          "topic_type": "nav_msgs/msg/Odometry",
+          "reliability": "RELIABLE",
+          "durability": "VOLATILE"
+        }
+      ],
+      "subscribers": []
+    },
+    "/parameter_events": {
+      "types": [
+        "rcl_interfaces/msg/ParameterEvent"
+      ],
+      "publishers": [
+        {
+          "node_name": "readonly_interface_inspector",
+          "node_namespace": "/",
+          "topic_type": "rcl_interfaces/msg/ParameterEvent",
+          "reliability": "RELIABLE",
+          "durability": "VOLATILE"
+        }
+      ],
+      "subscribers": []
+    },
+    "/scan": {
+      "types": [
+        "sensor_msgs/msg/LaserScan"
+      ],
+      "publishers": [
+        {
+          "node_name": "YB_Car_Node",
+          "node_namespace": "/",
+          "topic_type": "sensor_msgs/msg/LaserScan",
+          "reliability": "RELIABLE",
+          "durability": "VOLATILE"
+        }
+      ],
+      "subscribers": []
+    },
+    "/servo_s1": {
+      "types": [
+        "std_msgs/msg/Int32"
+      ],
+      "publishers": [],
+      "subscribers": [
+        {
+          "node_name": "YB_Car_Node",
+          "node_namespace": "/",
+          "topic_type": "std_msgs/msg/Int32",
+          "reliability": "RELIABLE",
+          "durability": "VOLATILE"
+        }
+      ]
+    },
+    "/servo_s2": {
+      "types": [
+        "std_msgs/msg/Int32"
+      ],
+      "publishers": [],
+      "subscribers": [
+        {
+          "node_name": "YB_Car_Node",
+          "node_namespace": "/",
+          "topic_type": "std_msgs/msg/Int32",
+          "reliability": "RELIABLE",
+          "durability": "VOLATILE"
+        }
+      ]
+    }
+  }
+}

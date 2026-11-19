@@ -1,0 +1,15 @@
+{
+  "saved_utc": "2026-11-19T05:54:37.998993+00:00",
+  "zero_velocity_sent": true,
+  "last_observed_velocity": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "owned_services_running": {
+    "micro_ros_agent": false,
+    "camera_node": false
+  },
+  "esp32_battery_disconnected_by_user": "not_yet_confirmed",
+  "checkpoint": "docs/RESUME.md"
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/Micro-XRCE-DDS-Client",
+    "commit": "83f129a80770a09aac9e823896ecbf6a0eddf0fc"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/common_interfaces",
+    "commit": "a941f14bb318d8d904505ed935ccbb97f24a70a4"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/example_interfaces",
+    "commit": "4ed406d1277df78be01a31005306d69e7592a993"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/micro-CDR",
+    "commit": "ed4fd513a24a53b93d548d342cb7aa0a18716f04"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/micro_ros_msgs",
+    "commit": "b1ef85201e5545d3e07b73f4628bb15836062573"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/micro_ros_utilities",
+    "commit": "9f35a036f5c87595c03673598be1615ded620f6d"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rcl",
+    "commit": "01b5d1dedfff640b1e192a865edb57ae1cb00fc6"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rcl_interfaces",
+    "commit": "7aa3caf43377ea6ad615bc1040832e2c7566bfbe"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rcl_logging",
+    "commit": "727920c2592be6deb6983f0fe1b57cbc929cbb70"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rclc",
+    "commit": "45ef3de567588652c7f05017a91ea29921dd6862"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rcutils",
+    "commit": "c002e3c66241525a24ae6c2a35c4830761c5d280"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rmw",
+    "commit": "8cb94a87cf3f4049abe2d563af893517bf336930"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rmw_implementation",
+    "commit": "16201bff9bc198c8820cc2dfd19c1163204057c9"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rmw_microxrcedds",
+    "commit": "cbc4a1e60aeafd051a7c1636045653d5df425f98"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/ros2_tracing",
+    "commit": "e19e186c3768bf8f8c86c752d4d57182dc4e68ea"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rosidl",
+    "commit": "9bcfabf3eddf8e63fb4332dca6da7ec6f3140d65"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_core",
+    "commit": "c6eb22b0e77cf57b19e9c6ffd114a00749404215"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_defaults",
+    "commit": "9749b5919add7e5960cd931ec547d45f06bd0025"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_dynamic_typesupport",
+    "commit": "cb8c54d12c678daa70410bb0626ed8626f561e45"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_typesupport",
+    "commit": "352f208e29f33d7a5e78f4aec38ac0056d9ff23e"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/rosidl_typesupport_microxrcedds",
+    "commit": "9672e11175e616bc3fb7449288d0868ab36419bf"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/test_interface_files",
+    "commit": "1c92e082fe14f90b772d308d113e510ad2c79fb9"
+  },
+  {
+    "path": "firmware/drive_controller/components/micro_ros_espidf_component/micro_ros_src/src/unique_identifier_msgs",
+    "commit": "901599ee92c2ee949f42a5c5d821c92b3e515d69"
+  }
+]

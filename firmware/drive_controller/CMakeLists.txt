@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+set(COMPONENTS main)
+set(BUILD_WLAN_INTERFACE OFF CACHE BOOL "" FORCE)
+set(BUILD_ETHERNET_INTERFACE OFF CACHE BOOL "" FORCE)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(dase7503_remote)

@@ -1,0 +1,22 @@
+safety_gate:
+  ros__parameters:
+    hardware_ready: false
+    max_linear: 0.15
+    max_angular: 0.5
+    command_timeout: 0.25
+    scan_timeout: 0.3
+    odom_timeout: 0.3
+    robot_radius: 0.22
+    clearance: 0.08
+    reaction_time: 0.25
+    braking_acceleration: 0.3
+    minimum_coverage: 0.9
+odom_tf:
+  ros__parameters:
+    input_frame: odom_frame
+    input_child: base_footprint
+qr_scanner:
+  ros__parameters:
+    confirmation_frames: 3
+    max_rate: 10.0
+    evidence_dir: ~/dase7503_evidence

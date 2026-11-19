@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/rsi-bd-04/Documents/ChatGPT/dase7503/tools/bench_pulse.py", line 102, in <module>
+    main()
+  File "/home/rsi-bd-04/Documents/ChatGPT/dase7503/tools/bench_pulse.py", line 73, in main
+    raise RuntimeError("未找到指定控制板的 Twist 订阅，禁止运动")
+RuntimeError: 未找到指定控制板的 Twist 订阅，禁止运动

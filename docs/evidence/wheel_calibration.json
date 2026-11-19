@@ -1,0 +1,63 @@
+{
+  "firmware": "dase-rc-0.2",
+  "wheel_top_toward_chassis_front_is_forward": true,
+  "motors": {
+    "M1": {
+      "position": "front_right",
+      "position_verified_by_user": true,
+      "positive_pwm_physical_direction": "backward",
+      "forward_pwm_sign": -1,
+      "evidence": "adapted_m1_direction.json"
+    },
+    "M2": {
+      "position": "front_left",
+      "position_verified_by_user": true,
+      "positive_pwm_physical_direction": "forward",
+      "forward_pwm_sign": 1,
+      "evidence": "adapted_m2_direction.json"
+    },
+    "M3": {
+      "position": "rear_right",
+      "position_verified_by_user": true,
+      "positive_pwm_physical_direction": "backward",
+      "forward_pwm_sign": -1,
+      "evidence": "adapted_m3_direction.json"
+    },
+    "M4": {
+      "position": "rear_left",
+      "position_verified_by_user": true,
+      "positive_pwm_physical_direction": "forward",
+      "forward_pwm_sign": 1,
+      "evidence": "adapted_m4_direction.json"
+    }
+  },
+  "complete": true,
+  "forward_pwm_signs": [
+    -1,
+    1,
+    -1,
+    1
+  ],
+  "whole_chassis": {
+    "forward": {
+      "observed_by_user": "all_four_forward",
+      "evidence": "adapted_forward_600.json",
+      "verified": true
+    },
+    "backward": {
+      "observed_by_user": "all_four_backward",
+      "evidence": "adapted_backward_600.json",
+      "verified": true
+    },
+    "ccw": {
+      "observed_by_user": "right_forward_left_backward",
+      "evidence": "adapted_ccw_600.json",
+      "verified": true
+    },
+    "cw": {
+      "observed_by_user": "right_backward_left_forward",
+      "evidence": "adapted_cw_600.json",
+      "verified": true
+    }
+  }
+}
