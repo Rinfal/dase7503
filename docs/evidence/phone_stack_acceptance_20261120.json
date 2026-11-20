@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-20",
+  "boot_test": {
+    "checked_at_utc": "2026-11-20T09:29:26.253106+00:00",
+    "verified": true,
+    "uptime_seconds": 28.18,
+    "units": {
+      "agent": "MainPID=1456\nActiveState=active",
+      "camera": "MainPID=1462\nActiveState=active",
+      "vision": "MainPID=1463\nActiveState=active",
+      "remote": "MainPID=1467\nActiveState=active",
+      "health": "MainPID=1465\nActiveState=active"
+    },
+    "video_frames": 15,
+    "video_fps": 10.62,
+    "new_boot_verified": true
+  },
+  "boot_actuator_state": {
+    "armed": false,
+    "board_armed": false,
+    "wheel_pwm": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "lift_command_us": 0
+  },
+  "camera_freeze_recovery": {
+    "automatic_recovery": true,
+    "frames_recovered": true,
+    "seconds": 25.82
+  },
+  "iphone_safari_operator_accepted": true,
+  "ground_forward_backward_yaw_operator_accepted": true,
+  "ground_lateral_operator_accepted": false,
+  "ground_lateral_observation": "Wheels turn when suspended but chassis does not translate sideways on the ground.",
+  "latest_validation": {
+    "python_unittest_count": 104,
+    "python_unittest_passed": true,
+    "frontend_direct_mode_passed": true,
+    "frontend_manual_lock_mode_passed": true,
+    "video_reconnect_simulation_passed": true,
+    "physical_commands_during_backup": false
+  },
+  "scope": "Software checks do not certify mechanical lift travel, loaded operation, or immunity to storage damage during power loss."
+}

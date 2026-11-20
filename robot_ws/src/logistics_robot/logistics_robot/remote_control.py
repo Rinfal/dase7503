@@ -10,7 +10,7 @@ class ControlError(ValueError):
 
 
 class RemoteControl:
-    def __init__(self, drive_enabled=False, lift_angles=None, limits=None, lateral_enabled=False):
+    def __init__(self, drive_enabled=False, lift_angles=None, limits=None, lateral_enabled=False, direct_mode=False, manual_lock_mode=False):
         self.gate = ManualGate(limits)
         self.drive_enabled = drive_enabled
         self.lateral_enabled = lateral_enabled
@@ -20,6 +20,33 @@ class RemoteControl:
         self.pending_lift = None
         self.last_lift = None
         self.lift_block_until = 0.0
+        self.direct_mode = direct_mode
+        self.manual_lock_mode = manual_lock_mode
+        self.operator_unlocked = False
+
+    @property
+    def simple_control(self):
+        return self.direct_mode or self.manual_lock_mode
+
+    def lock(self):
+        self.operator_unlocked = False
+        self.stop()
+
+    def prepare_direct(self, now):
+        """A new operator command automatically reacquires the board handshake."""
+        if not self.drive_enabled:
+            return False
+        if self.manual_lock_mode and not self.operator_unlocked:
+            raise ControlError("请先手动解锁")
+        self.gate.output(now)
+        if not self.gate.ready(now)[0]:
+            return False
+        if not self.gate.armed:
+            self.gate.emergency_stop(False)
+            if not self.gate.arm(now)[0]:
+                return False
+            self.lease = secrets.token_urlsafe(18)
+        return True
 
     def stop(self):
         self.gate.emergency_stop(True)
@@ -38,6 +65,7 @@ class RemoteControl:
             raise ControlError(reason)
         self.lease = secrets.token_urlsafe(18)
         self.sequence = -1
+        self.operator_unlocked = True
         return self.lease
 
     def validate_request(self, body, now):
@@ -57,7 +85,10 @@ class RemoteControl:
             raise ControlError("运动已锁定，请重新解锁")
 
     def drive(self, body, now):
-        self.validate_request(body, now)
+        if self.manual_lock_mode and not self.operator_unlocked:
+            raise ControlError("请先手动解锁")
+        if not self.simple_control:
+            self.validate_request(body, now)
         values = [body.get(key, 0) for key in ("forward", "lateral", "angular")]
         if any(type(value) not in (int, float) or not math.isfinite(value) or abs(value) > 1
                for value in values):
@@ -67,18 +98,32 @@ class RemoteControl:
             self.stop()
             raise ControlError("横移尚未验收，底盘已锁定")
         if now < self.lift_block_until and any(values):
+            if self.simple_control:
+                return
             raise ControlError("升降指令执行期间禁止底盘移动")
+        if self.simple_control:
+            if not any(values) and not self.gate.armed:
+                return
+            if not self.prepare_direct(now):
+                return
         limits = self.gate.limits
         self.gate.update_command(Velocity(values[0] * limits.max_linear,
                                          values[1] * limits.max_linear,
                                          values[2] * limits.max_angular), now)
 
     def lift(self, body, now):
-        self.validate_request(body, now)
+        if self.manual_lock_mode and not self.operator_unlocked:
+            raise ControlError("请先手动解锁")
+        if not self.simple_control:
+            self.validate_request(body, now)
         direction = body.get("direction")
         if direction not in self.lift_angles:
             raise ControlError("升降安全行程尚未标定，禁止发送舵机角度")
-        if self.gate.command != Velocity() or now < self.lift_block_until:
+        if self.simple_control:
+            if now < self.lift_block_until or not self.prepare_direct(now):
+                return
+            self.gate.update_command(Velocity(), now)
+        elif self.gate.command != Velocity() or now < self.lift_block_until:
             raise ControlError("请先停车，等待升降机构稳定")
         self.pending_lift = self.lift_angles[direction]
         self.last_lift = direction
@@ -96,7 +141,10 @@ class RemoteControl:
         self.output(now)
         feedback_age = None if self.gate.feedback_time is None else now - self.gate.feedback_time
         return {
-            "armed": self.gate.armed,
+            "armed": self.operator_unlocked if self.manual_lock_mode else self.gate.armed,
+            "manual_lock": self.manual_lock_mode,
+            "controller_ready": self.gate.armed,
+            "direct_control": self.direct_mode,
             "estop": self.gate.estop,
             "reason": self.gate.reason,
             "drive_enabled": self.drive_enabled,

@@ -11,6 +11,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from .remote_control import ControlError, RemoteControl
+from .durability import atomic_write
 
 
 def verified_features(profile):
@@ -33,29 +34,58 @@ def verified_features(profile):
         if (set(angles) == {"up", "down"} and angles['up'] != angles['down'] and
                 all(type(a) is int and low <= a <= high for a in angles.values())):
             lift = angles
-    return drive, drive and controller.get("lateral_response_verified") is True, lift
+    elif drive and pwm_mode and servo.get('manual_lift_authorized') is True:
+        # Explicit operator authorization of the previously exercised small
+        # working band is distinct from verified mechanical travel.
+        candidate = servo.get('manual_pulses_us', {})
+        if (set(candidate) == {'down', 'up'} and type(candidate['down']) is int
+                and 300 <= candidate['down'] <= 400
+                and candidate['up'] in (540, 750) and all(type(v) is int for v in candidate.values())):
+            lift = candidate
+    lateral = controller.get("lateral_response_verified") is True or (
+        pwm_mode and controller.get('wheel_type') == 'mecanum'
+        and controller.get('manual_lateral_authorized') is True)
+    return drive, drive and lateral, lift
 
 
 class WebState:
     def __init__(self, password, profile, evidence_dir):
         self.lock = threading.RLock()
+        self.frame_ready = threading.Condition(self.lock)
         drive, lateral, lift = verified_features(profile)
         controller = profile.get('controller', {})
         self.bench_only = (str(controller.get('firmware', '')).startswith('dase-rc-')
                            and controller.get('ground_drive_verified') is not True)
-        self.control = RemoteControl(drive_enabled=drive, lateral_enabled=lateral, lift_angles=lift)
+        self.control = RemoteControl(drive_enabled=drive, lateral_enabled=lateral, lift_angles=lift,
+                                     direct_mode=controller.get('direct_control') is True,
+                                     manual_lock_mode=controller.get('manual_lock_control') is True)
+        self.lift_range_verified = profile.get('servo', {}).get('safe_range_verified') is True
         self.password = password
         self.sessions = {}
+        self.control_versions = {}
         self.login_attempts = {}
         self.owner = None
         self.jpeg = None
         self.frame_time = None
+        self.frame_sequence = 0
+        self.frame_times = deque(maxlen=30)
         self.battery = None
         self.board_status = None
         self.evidence_dir = Path(evidence_dir).expanduser().resolve()
         self.evidence_dir.mkdir(parents=True, exist_ok=True)
         self.qr_events = deque(maxlen=30)
         self.last_snapshot = -float("inf")
+        self.tick_time = None
+
+    def set_frame(self, jpeg, stamp=None):
+        with self.frame_ready:
+            self.jpeg = bytes(jpeg)
+            self.frame_time = time.monotonic() if stamp is None else stamp
+            self.frame_sequence += 1
+            if self.frame_times and self.frame_time-self.frame_times[-1] > 1:
+                self.frame_times.clear()
+            self.frame_times.append(self.frame_time)
+            self.frame_ready.notify_all()
 
     def authenticated(self, cookie):
         try:
@@ -87,6 +117,7 @@ class WebState:
                 self.login_attempts[address] = (first, count + 1)
                 raise ControlError("访问口令错误")
             self.sessions = {s: expiry for s, expiry in self.sessions.items() if expiry > now}
+            self.control_versions = {s:v for s,v in self.control_versions.items() if s in self.sessions}
             if len(self.sessions) >= 32:
                 raise ControlError("查看会话过多，请退出其他设备")
             token = secrets.token_urlsafe(32)
@@ -99,13 +130,18 @@ class WebState:
             now = time.monotonic()
             status = self.control.status(now)
             status.update(camera_age=None if self.frame_time is None else now - self.frame_time,
+                          video_fps=((len(self.frame_times)-1)/(self.frame_times[-1]-self.frame_times[0])
+                              if len(self.frame_times) > 1 and self.frame_times[-1] > self.frame_times[0] else 0),
                           bench_only=self.bench_only,
+                          lift_range_verified=self.lift_range_verified,
+                          lift_pulses_us=self.control.lift_angles,
                           battery_raw=self.battery, battery_unit_verified=False,
                           qr=list(self.qr_events))
             if self.board_status:
                 status.update(board_armed=self.board_status['armed'],
                               wheel_pwm=self.board_status['pwm'],
-                              lift_command_us=self.board_status['servo_us'])
+                              lift_command_us=self.board_status['servo_us'],
+                              lift_holding=self.board_status['servo_active'])
             if not status["armed"]:
                 self.owner = None
             return status
@@ -113,8 +149,20 @@ class WebState:
     def action(self, route, body, session):
         with self.lock:
             now = time.monotonic()
+            if self.control.simple_control and route in ('/api/drive', '/api/lift', '/api/stop', '/api/logout', '/api/arm', '/api/lock'):
+                version = body.get('control_version')
+                if type(version) is int and version >= 0:
+                    if version < self.control_versions.get(session, -1):
+                        return self.status()  # An old gesture must not undo release/stop.
+                    self.control_versions[session] = version
+                elif self.control.manual_lock_mode:
+                    raise ControlError("缺少有效操作编号，请刷新页面")
             if route == "/api/stop":
                 self.control.stop()
+                if not self.control.manual_lock_mode:
+                    self.owner = None
+            elif route == "/api/lock":
+                self.control.lock()
                 self.owner = None
             elif route == "/api/logout":
                 self.control.stop()
@@ -125,7 +173,9 @@ class WebState:
                 self.owner = session
                 return {"lease": lease, "server_clock": now}
             elif route in ("/api/drive", "/api/lift"):
-                if self.owner != session:
+                if self.control.simple_control:
+                    self.owner = session
+                elif self.owner != session:
                     raise ControlError("当前设备没有控制权")
                 (self.control.drive if route == "/api/drive" else self.control.lift)(body, now)
             elif route == "/api/snapshot":
@@ -135,7 +185,7 @@ class WebState:
                     raise ControlError("请稍候再截图")
                 self.last_snapshot = now
                 filename = "manual_" + str(time.time_ns()) + ".jpg"
-                (self.evidence_dir / filename).write_bytes(self.jpeg)
+                atomic_write(self.evidence_dir / filename, self.jpeg)
                 return {"image": "/evidence/" + filename}
             else:
                 raise ControlError("未知操作")
@@ -166,6 +216,8 @@ class RobotHTTPServer(ThreadingHTTPServer):
     def __init__(self, address, state):
         self.state = state
         self.slots = threading.BoundedSemaphore(16)
+        self.stream_slots = threading.BoundedSemaphore(3)
+        self.stream_stop = threading.Event()
         super().__init__(address, RobotHandler)
         port = self.server_address[1]
         addresses = {"localhost", "127.0.0.1", address[0]}
@@ -182,6 +234,12 @@ class RobotHTTPServer(ThreadingHTTPServer):
         self.allowed_hosts = {f"{ip}:{port}" for ip in addresses if ip != "0.0.0.0"}
         if port == 80:
             self.allowed_hosts.update(addresses - {"0.0.0.0"})
+
+    def server_close(self):
+        self.stream_stop.set()
+        with self.state.frame_ready:
+            self.state.frame_ready.notify_all()
+        super().server_close()
 
     def process_request(self, request, client_address):
         if not self.slots.acquire(blocking=False):
@@ -213,7 +271,7 @@ class RobotHandler(BaseHTTPRequestHandler):
         self.send_header("Content-Length", str(len(data)))
         self.send_header("Cache-Control", "no-store")
         self.send_header("X-Content-Type-Options", "nosniff")
-        self.send_header("Content-Security-Policy", "default-src 'self'; frame-ancestors 'none'; object-src 'none'")
+        self.send_header("Content-Security-Policy", "default-src 'self'; img-src 'self' blob:; frame-ancestors 'none'; object-src 'none'")
         self.send_header("Referrer-Policy", "no-referrer")
         if cookie:
             self.send_header("Set-Cookie", cookie)
@@ -240,10 +298,16 @@ class RobotHandler(BaseHTTPRequestHandler):
         path = urlsplit(self.path).path
         static = {"/": ("index.html", "text/html; charset=utf-8"),
                   "/app.js": ("app.js", "text/javascript; charset=utf-8"),
+                  "/video.js": ("video.js", "text/javascript; charset=utf-8"),
                   "/style.css": ("style.css", "text/css; charset=utf-8")}
         if path in static:
             name, kind = static[path]
             self.reply(200, (Path(__file__).parent / "web" / name).read_bytes(), kind)
+            return
+        if path == '/healthz':
+            with self.server.state.lock:
+                stamp = self.server.state.tick_time
+            self.reply(200, {'tick_age': None if stamp is None else time.monotonic()-stamp})
             return
         if not self.server.state.authenticated(self.headers.get("Cookie")):
             self.reply(401, {"error": "请先登录"})
@@ -253,6 +317,8 @@ class RobotHandler(BaseHTTPRequestHandler):
             self.reply(200, state.status())
         elif path == "/api/evidence":
             self.reply(200, state.evidence())
+        elif path in ("/api/stream", "/api/video"):
+            self.stream(binary=path == "/api/video")
         elif path == "/api/frame":
             with state.lock:
                 frame, stamp = state.jpeg, state.frame_time
@@ -270,6 +336,51 @@ class RobotHandler(BaseHTTPRequestHandler):
                 self.reply(200, target.read_bytes(), "image/png" if target.suffix == ".png" else "image/jpeg")
         else:
             self.reply(404, {"error": "不存在"})
+
+    def stream(self, binary=False):
+        state = self.server.state
+        if not self.server.stream_slots.acquire(blocking=False):
+            self.reply(503, {"error": "视频连接过多，请关闭其他视频页面"})
+            return
+        try:
+            with state.lock:
+                if state.jpeg is None or state.frame_time is None or time.monotonic()-state.frame_time > 1:
+                    self.reply(503, {"error": "等待实时相机画面"})
+                    return
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/octet-stream' if binary else
+                             'multipart/x-mixed-replace; boundary=frame')
+            self.send_header('X-Accel-Buffering', 'no')
+            self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate')
+            self.send_header('X-Content-Type-Options', 'nosniff')
+            self.send_header('Connection', 'close')
+            self.end_headers()
+            self.close_connection = True
+            last_sequence = -1
+            while not self.server.stream_stop.is_set():
+                if not state.authenticated(self.headers.get('Cookie')):
+                    break
+                with state.frame_ready:
+                    state.frame_ready.wait_for(lambda: state.frame_sequence != last_sequence
+                        or self.server.stream_stop.is_set(), timeout=.5)
+                    if self.server.stream_stop.is_set():
+                        break
+                    if state.frame_time is None or time.monotonic()-state.frame_time > 1:
+                        break
+                    if state.frame_sequence == last_sequence:
+                        continue
+                    jpeg, last_sequence = state.jpeg, state.frame_sequence
+                if not state.authenticated(self.headers.get('Cookie')):
+                    break
+                # Never hold the control lock during a slow network write.
+                header = (f'--frame\r\nContent-Type: image/jpeg\r\nContent-Length: {len(jpeg)}\r\n'
+                          f'X-Frame-Sequence: {last_sequence}\r\n\r\n').encode()
+                self.wfile.write(header + jpeg + b'\r\n')
+                self.wfile.flush()
+        except (BrokenPipeError, ConnectionResetError, TimeoutError, OSError):
+            pass
+        finally:
+            self.server.stream_slots.release()
 
     def do_POST(self):
         if not self.same_origin() or self.headers.get_content_type() != "application/json":

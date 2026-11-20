@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-20",
+  "firmware": "dase-rc-0.9",
+  "configured_manual_pulses_us": {
+    "down": 350,
+    "up": 750
+  },
+  "automatic_low_position_verified": false,
+  "mechanical_structure_changed": false,
+  "gear_center_screw_removed": false,
+  "operator_constraint": "Do not remove the gear center self-tapping screw.",
+  "lower_pulse_observations": [
+    {
+      "requested_us": 300,
+      "board_servo_us": 300,
+      "measured_high_us": 298,
+      "requests": 7,
+      "servo_active": true,
+      "operator_observation": "no_descent",
+      "source": "runtime/lift-failure-status.json"
+    },
+    {
+      "requested_us": 400,
+      "board_servo_us": 400,
+      "measured_high_us": 398,
+      "requests": 8,
+      "servo_active": true,
+      "operator_observation": "descends_but_too_high",
+      "source": "runtime/lift-400-recovery-status.json"
+    },
+    {
+      "requested_us": 350,
+      "board_servo_us": 350,
+      "measured_high_us": 348,
+      "requests": 9,
+      "servo_active": true,
+      "operator_observation": "descends_lower_but_too_high",
+      "source": "runtime/lift-350-status.json"
+    },
+    {
+      "requested_us": 325,
+      "board_servo_us": 325,
+      "measured_high_us": 325,
+      "requests": 12,
+      "servo_active": true,
+      "operator_observation": "no_descent",
+      "source": "runtime/lift-325-status.json"
+    },
+    {
+      "requested_us": 340,
+      "board_servo_us": 340,
+      "measured_high_us": 338,
+      "requests": 14,
+      "servo_active": true,
+      "operator_observation": "no_descent",
+      "source": "runtime/lift-340-status.json"
+    }
+  ],
+  "release_test": {
+    "signal_off_verified": true,
+    "operator_observation": "Must press down by hand to reach the desired low position; not automatic descent."
+  },
+  "repeated_150_probe": {
+    "sequence": "750us hold 2.5s then repeated -150 probes for 1s",
+    "continuous_150us_test": false,
+    "per_probe_mcu_limit_ms": 40,
+    "probe_requests_sent": 16,
+    "measured_high_us": 149,
+    "signal_verified": true,
+    "operator_observation": "升起正常，150µs 完全没下降"
+  },
+  "350_reference_test": {
+    "operator_observation": "手动压到理想低位后，点350µs降下，平台主动抬回原来偏高的低位",
+    "requested_us": 350,
+    "signal_status": {
+      "servo_us": 350,
+      "servo_high_us": 348,
+      "servo_active": true,
+      "servo_requests": 24,
+      "armed": false,
+      "pwm": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "lower_position_resolved": false,
+    "next_step": "inspect servo/support bracket fasteners for disengaging and re-indexing rack mesh without removing gear center self tapping screw",
+    "no_new_servo_command_by_agent": true
+  },
+  "handoff": "Operator will adjust mechanical structure on 2026-11-21. No further movement authorized by the GitHub backup request."
+}

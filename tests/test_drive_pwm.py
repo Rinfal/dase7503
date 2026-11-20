@@ -28,6 +28,13 @@ class DrivePWMTests(unittest.TestCase):
     def test_stop_is_zero(self):
         self.assertEqual(self.drive.output(0, 0, 0), [0]*4)
 
+    def test_mecanum_left_right_patterns_and_combined_saturation(self):
+        drive = DrivePWM((-1,1,-1,1), duty=600, lateral_enabled=True)
+        self.assertEqual(drive.output(0,.08,0), [-600,-600,600,600])
+        self.assertEqual(drive.output(0,-.08,0), [600,600,-600,-600])
+        self.assertEqual(drive.output(.08,.08,0), [-600,0,0,600])
+        self.assertTrue(all(abs(v)<=600 for v in drive.output(.08,.08,.35)))
+
     def test_assembled_vehicle_calibration_and_board_limit(self):
         drive = DrivePWM((-1, 1, -1, 1), duty=600)
         self.assertEqual(drive.output(0.08, 0, 0), [-600, 600, -600, 600])

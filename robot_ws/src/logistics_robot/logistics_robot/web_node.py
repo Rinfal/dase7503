@@ -15,7 +15,8 @@ from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
 from rclpy.node import Node
 from rclpy.qos import qos_profile_sensor_data
-from sensor_msgs.msg import Image
+from rclpy.signals import SignalHandlerOptions
+from sensor_msgs.msg import Image, CompressedImage
 from std_msgs.msg import Bool, Int32, Int32MultiArray, String, UInt16
 
 from .web_server import RobotHTTPServer, WebState
@@ -41,8 +42,8 @@ class WebNode(Node):
             with os.fdopen(fd, "w") as stream:
                 stream.write(secrets.token_urlsafe(12) + "\n")
         password = password_path.read_text().strip()
-        if len(password) < 12:
-            raise ValueError("访问口令至少需要 12 个字符")
+        if not password:
+            raise ValueError("访问口令不能为空")
         profile = yaml.safe_load(Path(profile_path).read_text())
         self.state = WebState(password, profile, evidence_dir)
         self.firmware = profile.get('controller', {}).get('firmware', '')
@@ -55,7 +56,8 @@ class WebNode(Node):
             controller = profile['controller']
             if self.state.control.drive_enabled:
                 self.pwm_bridge = PWMBridge(DrivePWM(controller['motor_forward_pwm_signs'],
-                    duty=controller['verified_bench_running_pwm']))
+                    duty=controller['verified_bench_running_pwm'],
+                    lateral_enabled=self.state.control.lateral_enabled))
                 self.wheels = self.create_publisher(Int32MultiArray, '/wheel_pwm', qos_profile_sensor_data)
                 self.arm_pub = self.create_publisher(Bool, '/drive_arm', qos_profile_sensor_data)
             self.create_subscription(String, '/drive/status', self.board_feedback, qos_profile_sensor_data)
@@ -63,7 +65,12 @@ class WebNode(Node):
             self.create_subscription(Odometry, '/odom_raw', self.feedback, qos_profile_sensor_data)
             self.create_subscription(UInt16, '/battery', self.battery, qos_profile_sensor_data)
         self.create_subscription(String, "/qr/detections", self.qr, 10)
-        self.create_subscription(Image, "/camera/image_raw", self.image, qos_profile_sensor_data)
+        compressed_topic = self.declare_parameter('compressed_preview_topic', '').value
+        if compressed_topic:
+            self.create_subscription(CompressedImage, compressed_topic, self.compressed_image,
+                                     qos_profile_sensor_data)
+        else:
+            self.create_subscription(Image, "/camera/image_raw", self.image, qos_profile_sensor_data)
         # A read-only dashboard must not compete with bench tests by publishing zeros.
         self.velocity = (self.create_publisher(Twist, "/cmd_vel", 1)
                          if self.state.control.drive_enabled and not self.pwm_mode else None)
@@ -107,8 +114,7 @@ class WebNode(Node):
             event = json.loads(msg.data)
             if isinstance(event, dict):
                 with self.state.lock:
-                    if not self.state.qr_events or self.state.qr_events[-1].get("payload") != event.get("payload"):
-                        self.state.qr_events.append(event)
+                    self.state.qr_events.append(event)
         except ValueError:
             pass
 
@@ -122,11 +128,18 @@ class WebNode(Node):
             frame = cv2.resize(frame, (960, 540))
             success, encoded = cv2.imencode(".jpg", frame, [cv2.IMWRITE_JPEG_QUALITY, 75])
             if success:
-                with self.state.lock:
-                    self.state.jpeg = encoded.tobytes()
-                    self.state.frame_time = now
+                self.state.set_frame(encoded.tobytes(), now)
         except (CvBridgeError, cv2.error) as error:
             self.get_logger().warning(str(error), throttle_duration_sec=10)
+
+    def compressed_image(self, msg):
+        if 'jpeg' not in msg.format.lower() or not msg.data:
+            return
+        source_ns = msg.header.stamp.sec*1_000_000_000 + msg.header.stamp.nanosec
+        age = (self.get_clock().now().nanoseconds-source_ns)/1e9 if source_ns else 0
+        if not 0 <= age < 1:
+            return
+        self.state.set_frame(msg.data, time.monotonic()-age)
 
     def tick(self):
         with self.state.lock:
@@ -147,18 +160,22 @@ class WebNode(Node):
             if self.servo and not self.pwm_mode and self.state.control.pending_lift is not None:
                 self.servo.publish(Int32(data=self.state.control.pending_lift))
                 self.state.control.pending_lift = None
+            self.state.tick_time = time.monotonic()
 
     def close(self):
         with self.state.lock:
             self.state.control.stop()
-        self.tick()
+        if rclpy.ok():
+            self.tick()
         self.server.shutdown()
         self.server.server_close()
         self.http_thread.join(timeout=2)
 
 
 def main(args=None):
-    rclpy.init(args=args)
+    # Let Python deliver KeyboardInterrupt before invalidating the ROS context,
+    # so close() can still publish its final neutral/locked output.
+    rclpy.init(args=args, signal_handler_options=SignalHandlerOptions.NO)
     node = None
     try:
         node = WebNode()

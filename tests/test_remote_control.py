@@ -9,6 +9,64 @@ from logistics_robot.safety import Velocity
 
 
 class RemoteTests(unittest.TestCase):
+    def test_manual_lock_survives_idle_stop_feedback_loss_and_lift(self):
+        control = RemoteControl(drive_enabled=True, manual_lock_mode=True,
+                                lateral_enabled=True, lift_angles={'down':300, 'up':750})
+        control.gate.update_feedback(True, 10)
+        with self.assertRaises(ControlError):
+            control.drive({'forward':1}, 10)
+        control.arm(10)
+        control.drive({'lateral':1}, 10.1)
+        self.assertEqual(control.output(10.11).lateral, .08)
+        self.assertEqual(control.output(11), Velocity())
+        self.assertTrue(control.status(11)['armed'])
+        control.gate.update_feedback(True, 11.1)
+        self.assertEqual(control.output(11.1), Velocity())
+        self.assertFalse(control.gate.armed, 'feedback recovery must not resume motion')
+        control.lift({'direction':'down'}, 11.1)
+        self.assertEqual(control.pending_lift, 300)
+        control.stop()
+        self.assertIsNone(control.pending_lift)
+        self.assertTrue(control.status(11.2)['armed'])
+        control.lock()
+        self.assertFalse(control.status(11.2)['armed'])
+        with self.assertRaises(ControlError):
+            control.lift({'direction':'up'}, 11.2)
+
+    def test_direct_mode_accepts_no_lease_and_ignores_client_clock_sequence(self):
+        control = RemoteControl(drive_enabled=True, direct_mode=True)
+        control.gate.update_feedback(True, 10)
+        control.drive({'forward': 1, 'server_clock': -999, 'sequence': -1}, 10)
+        self.assertEqual(control.output(10.1).forward, .08)
+        self.assertEqual(control.output(10.3), Velocity())
+        self.assertFalse(control.gate.armed)
+        control.gate.update_feedback(True, 10.4)
+        control.drive({'forward': -1}, 10.4)
+        self.assertEqual(control.output(10.41).forward, -.08)
+
+    def test_direct_mode_stop_needs_a_new_operator_command_to_restart(self):
+        control = RemoteControl(drive_enabled=True, direct_mode=True)
+        control.gate.update_feedback(True, 10)
+        control.drive({'forward': 1}, 10)
+        control.stop()
+        self.assertEqual(control.output(10.1), Velocity())
+        control.drive({'forward': 0}, 10.1)
+        self.assertFalse(control.gate.armed)
+        control.drive({'angular': 1}, 10.2)
+        self.assertTrue(control.gate.armed)
+
+    def test_direct_mode_waits_for_board_without_errors_and_lift_stops_drive(self):
+        control = RemoteControl(drive_enabled=True, direct_mode=True, lift_angles={'up': 750, 'down': 400})
+        control.drive({'forward': 1}, 10)
+        self.assertFalse(control.gate.armed)
+        control.gate.update_feedback(True, 10.1)
+        control.drive({'forward': 1}, 10.1)
+        control.lift({'direction': 'up'}, 10.15)
+        self.assertEqual(control.pending_lift, 750)
+        self.assertEqual(control.gate.command, Velocity())
+        control.drive({'forward': 1}, 10.2)
+        self.assertEqual(control.gate.command, Velocity())
+
     def ready(self, lift_angles=None):
         control = RemoteControl(drive_enabled=True, lift_angles=lift_angles)
         control.gate.update_feedback(True, 10)

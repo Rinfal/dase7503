@@ -65,3 +65,7 @@ Yahboom 官方控制板说明将蜂鸣器注明为低电压报警，MCU 指示�
 | 充电宝规格与欠压测试 | 未测 |
 
 资料：<https://github.com/YahboomTechnology/MicroROS-Board>；MS200p 厂家手册 <https://oradar.com.cn/qinFiles/2024/09/d210f4202409091048581967.pdf>。
+
+## 2026-11-20：5V OUT供电准备
+
+用户要求改用控制板5V OUT，尚未实际换线。已复核厂家专用Type-C供电输出支持5.1V/5A PD（https://www.yahboom.net/study/MicroROS-Board/10603）。此前固件备份、自启和独立失联归零已完成；真实开机自检new_boot_verified=true。供电基线在runtime/power-before-controller.json。需正常关机后断电换线，使用专用USB-C输出到Pi USB-C，不叠加原独立电源；串口数据线保留。不能把普通5V针脚的能力等同于该USB-C电源口。换线后先验证静态、相机扫码，再由用户手动验证电机/舵机负载下无欠压与重启。

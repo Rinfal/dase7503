@@ -1,4 +1,4 @@
-"""Open-loop forward/yaw mixing for empirically calibrated motor ports.
+"""Open-loop mecanum mixing for empirically calibrated motor ports.
 
 Physical wheel positions are M1 right-front, M2 left-front, M3 right-rear,
 M4 left-rear. PWM output is not measured wheel speed.
@@ -7,7 +7,7 @@ import math
 
 
 class DrivePWM:
-    def __init__(self, forward_signs, duty=180, forward_limit=0.08, yaw_limit=0.35):
+    def __init__(self, forward_signs, duty=180, forward_limit=0.08, yaw_limit=0.35, lateral_enabled=False):
         if len(forward_signs) != 4 or any(type(v) is not int or v not in (-1, 1) for v in forward_signs):
             raise ValueError("Each motor needs an observed physical forward sign")
         if type(duty) is not int or not 1 <= duty <= 600:
@@ -18,14 +18,17 @@ class DrivePWM:
         self.duty = duty
         self.forward_limit = forward_limit
         self.yaw_limit = yaw_limit
+        self.lateral_enabled = lateral_enabled
 
     def output(self, forward, lateral, angular):
         if any(not math.isfinite(v) for v in (forward, lateral, angular)):
             raise ValueError("Nonfinite drive request")
-        if lateral != 0:
+        if lateral != 0 and not self.lateral_enabled:
             raise ValueError("Lateral movement has not been calibrated")
         f = max(-1.0, min(1.0, forward/self.forward_limit))
         a = max(-1.0, min(1.0, angular/self.yaw_limit))
-        physical = (f+a, f-a, f+a, f-a)
+        left = max(-1.0, min(1.0, lateral/self.forward_limit))
+        # Standard X rollers: FR, FL, RR, RL. Positive lateral is left.
+        physical = (f+left+a, f-left-a, f-left+a, f+left-a)
         scale = max(1.0, *(abs(v) for v in physical))
         return [round(value/scale*self.duty*sign) for value, sign in zip(physical, self.signs)]
