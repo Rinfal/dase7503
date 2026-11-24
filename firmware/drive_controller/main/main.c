@@ -274,7 +274,7 @@ static void status_callback(rcl_timer_t *timer,int64_t last) {
     pulse=servo_pulse;active=servo_active;
     portEXIT_CRITICAL(&mux);
     status_msg.data.size=snprintf(status_storage,sizeof(status_storage),
-        "{\"firmware\":\"dase-rc-0.9\",\"armed\":%s,\"watchdog_timeout\":%s,"
+        "{\"firmware\":\"dase-rc-0.10\",\"armed\":%s,\"watchdog_timeout\":%s,"
         "\"pwm\":[%d,%d,%d,%d],\"encoders\":[%d,%d,%d,%d],\"servo_us\":%d,\"board_us\":%lld,"
         "\"battery_adc_raw\":%d,"
         "\"wd_command_us\":%lld,\"wd_stop_us\":%lld,\"wd_settled_us\":%lld,\"wd_encoders\":[%d,%d,%d,%d],\"servo_active\":%s,\"servo_edges\":%u,\"servo_high_us\":%d,\"servo_requests\":%u}",

@@ -40,7 +40,7 @@ def verified_features(profile):
         candidate = servo.get('manual_pulses_us', {})
         if (set(candidate) == {'down', 'up'} and type(candidate['down']) is int
                 and 300 <= candidate['down'] <= 400
-                and candidate['up'] in (540, 750) and all(type(v) is int for v in candidate.values())):
+                and candidate['up'] in (540, 750, 1050, 1300) and all(type(v) is int for v in candidate.values())):
             lift = candidate
     lateral = controller.get("lateral_response_verified") is True or (
         pwm_mode and controller.get('wheel_type') == 'mecanum'

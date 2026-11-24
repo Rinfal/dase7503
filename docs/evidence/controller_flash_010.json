@@ -1,0 +1,74 @@
+{
+  "firmware": "dase-rc-0.10",
+  "built_at_utc": "2026-11-24T07:27:34.453098+00:00",
+  "images": {
+    "0x0": {
+      "file": "bootloader/bootloader.bin",
+      "sha256": "abee9c71cd3601fc8db9ba2b24de72545460795ece220315bceaa27ed7f6a07f"
+    },
+    "0x10000": {
+      "file": "dase7503_remote.bin",
+      "sha256": "a420c3e4e4351d110e5326bdd645a8d2135c54dfbec4e4b7a80f6787623e4aa8"
+    },
+    "0x8000": {
+      "file": "partition_table/partition-table.bin",
+      "sha256": "ca7d84a1bb2c0599d3d50d795cfcdd30547b89b7a0fbf6d95adf7985fbd5f2c0"
+    }
+  },
+  "flashed": true,
+  "operator_confirmed": "Four wheels raised, lift unloaded and supported",
+  "lateral_pwm": 800,
+  "forward_yaw_pwm": 600,
+  "command_watchdog_ms": 250,
+  "pre_upgrade_backup": "runtime/firmware-backups/20261124T072736Z",
+  "pre_upgrade_backup_sha256": "3522613daac46594da66f12e48e777d789be6ec2d1b540b8447d12afaaecb74e",
+  "flashed_at_utc": "2026-11-24T07:32:08.287793+00:00",
+  "flash_log": "runtime/controller-010-flash.log",
+  "web_idle_status": {
+    "armed": false,
+    "manual_lock": true,
+    "controller_ready": false,
+    "direct_control": false,
+    "estop": true,
+    "reason": "emergency_stop",
+    "drive_enabled": true,
+    "lateral_enabled": true,
+    "lift_enabled": true,
+    "last_lift_command": null,
+    "lift_busy": false,
+    "feedback_age": 0.04093500300041342,
+    "server_clock": 3241.378140391,
+    "max_linear": 0.08,
+    "max_angular": 0.35,
+    "camera_age": 0.29007410800022626,
+    "video_fps": 6.696343540441669,
+    "bench_only": false,
+    "lift_range_verified": false,
+    "lift_pulses_us": {
+      "down": 350,
+      "up": 1050
+    },
+    "battery_raw": 2526,
+    "battery_unit_verified": false,
+    "qr": [],
+    "board_armed": false,
+    "wheel_pwm": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "lift_command_us": 0,
+    "lift_holding": false
+  },
+  "protected_network_checks": {
+    "uplink_active": true,
+    "rules": true,
+    "proxy_pid": true,
+    "dns": true,
+    "uplink_profile_except_dhcp_expiry": true,
+    "non_hotspot_routes": true
+  },
+  "jpeg_bytes": 13212,
+  "network_note": "Only normal DHCP expiry renewal; USB settings/address/default routes, policy rules, DNS and proxy PID unchanged."
+}

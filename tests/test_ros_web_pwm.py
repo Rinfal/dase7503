@@ -58,7 +58,13 @@ class WebPWMIntegration(unittest.TestCase):
     def test_manual_unlock_survives_idle_lift_and_stop(self):
         self.exercise(False, manual=True)
 
-    def exercise(self, direct, manual=False):
+    def test_boosted_lateral_with_forward_limit_and_manual_lock(self):
+        self.exercise(False, manual=True, boost=True)
+
+    def test_balanced_drive_start_assist_and_1300_lift(self):
+        self.exercise(False, manual=True, boost=True, balanced=True)
+
+    def exercise(self, direct, manual=False, boost=False, balanced=False):
         import rclpy
         import yaml
         from rclpy.executors import SingleThreadedExecutor
@@ -73,6 +79,10 @@ class WebPWMIntegration(unittest.TestCase):
                 'backward_direction_verified', 'positive_yaw_direction_verified',
                 'negative_yaw_direction_verified', 'command_watchdog_verified', 'web_drive_validated')}
             flags.update(firmware='dase-rc-0.5', motor_forward_pwm_signs=[-1,1,-1,1], verified_bench_running_pwm=600)
+            if boost:
+                flags.update(firmware='dase-rc-0.10', lateral_pwm=800)
+            if balanced:
+                flags.update(forward_pwm=750,lateral_pwm=700,lateral_start_pwm=800,lateral_start_seconds=.18)
             flags['direct_control'] = direct
             flags['manual_lock_control'] = manual
             flags['manual_lateral_authorized'] = manual
@@ -81,6 +91,8 @@ class WebPWMIntegration(unittest.TestCase):
                        'calibrated_pulses_us':{'up':1540,'down':1500}}}
             if manual:
                 profile['servo'] = {'manual_lift_authorized':True, 'manual_pulses_us':{'up':750,'down':300}}
+            if balanced:
+                profile['servo']['manual_pulses_us']['up']=1300
             (root/'profile.yaml').write_text(yaml.safe_dump(profile))
             (root/'password').write_text('isolated-test-password')
             rclpy.init(args=['--ros-args', '-p', 'hardware_profile:='+str(root/'profile.yaml'),
@@ -88,7 +100,7 @@ class WebPWMIntegration(unittest.TestCase):
                 '-p', 'host:=127.0.0.1', '-p', 'port:=0'], domain_id=232)
             web = WebNode()
             board = Node('isolated_fake_board')
-            status = {'firmware':'dase-rc-0.5','armed':False,'watchdog_timeout':False,
+            status = {'firmware':flags['firmware'],'armed':False,'watchdog_timeout':False,
                 'pwm':[0]*4,'encoders':[0]*4,'board_us':1000000,'servo_us':0,'servo_active':False}
             outputs, pulses = [], []
 
@@ -160,7 +172,8 @@ class WebPWMIntegration(unittest.TestCase):
                 for _ in range(8):
                     drive(1)
                     time.sleep(.06)
-                self.assertIn([-600,600,-600,600],outputs)
+                forward_duty = 750 if balanced else 600
+                self.assertIn([-forward_duty,forward_duty,-forward_duty,forward_duty],outputs)
                 if direct:
                     time.sleep(.6)
                     self.assertFalse(request('/api/status')['armed'])
@@ -174,9 +187,9 @@ class WebPWMIntegration(unittest.TestCase):
                     drive(0)
                     time.sleep(.06)
                 seq += 1
-                request('/api/lift', {'direction':'down' if manual else 'up'} if direct or manual else
+                request('/api/lift', {'direction':'down' if manual and not balanced else 'up'} if direct or manual else
                     {'lease':lease,'sequence':seq,'server_clock':time.monotonic(),'direction':'up'})
-                until(lambda:(300 if manual else 1540) in pulses)
+                until(lambda:(1300 if balanced else 300 if manual else 1540) in pulses)
                 time.sleep(.6)
                 self.assertEqual(request('/api/status')['armed'], manual)
                 until(lambda:not status['armed'] and status['pwm']==[0]*4)
@@ -188,7 +201,10 @@ class WebPWMIntegration(unittest.TestCase):
                     for _ in range(8):
                         request('/api/drive',{'lateral':1})
                         time.sleep(.06)
-                    self.assertIn([-600,-600,600,600],outputs)
+                    lateral = 700 if balanced else 800 if boost else 600
+                    self.assertIn([-lateral,-lateral,lateral,lateral],outputs)
+                    if balanced:
+                        self.assertIn([-800,-800,800,800],outputs)
                     request('/api/lock',{})
                     self.assertFalse(request('/api/status')['armed'])
                     until(lambda:not status['armed'] and status['pwm']==[0]*4)

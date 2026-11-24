@@ -1,4 +1,4 @@
-# 悬空调试固件 dase-rc-0.9
+# 遥控固件 dase-rc-0.10
 
 本项目重新编写的四通道开环电机输出与编码器读取固件。GPIO 对照
 [Yahboom 官方控制板资料](https://github.com/YahboomTechnology/MicroROS-Board)，
@@ -11,7 +11,7 @@
 
 | 话题 | 类型 | 含义 |
 | --- | --- | --- |
-| `/wheel_pwm` | `std_msgs/msg/Int32MultiArray` | M1、M2、M3、M4 四路有符号占空比，单位千分之一，固件上限600 |
+| `/wheel_pwm` | `std_msgs/msg/Int32MultiArray` | M1、M2、M3、M4 四路有符号占空比，单位千分之一，固件上限800（0.9及更早版本上限600） |
 | `/drive_arm` | `std_msgs/msg/Bool` | 必须先收到200ms内的零命令，才允许显式解锁；false停车并撤销解锁 |
 | `/drive/status` | `std_msgs/msg/String` | JSON，包含PWM、编码器累计值、解锁、超时、板端微秒时钟 |
 | `/servo_s2_us` | `std_msgs/msg/Int32` | S2脉宽微秒；仅静止时接受，接收后2秒禁止驱动底盘 |
@@ -53,6 +53,14 @@ python3 tools/bench_wheels.py --wheels-raised --unloaded \
 
 工具检查新固件状态、其他发布者和显式解锁，主进程及独立进程均停车。
 工具的PWM上限为600；每次脉冲最长15秒，不能用作地面遥控入口。
+
+0.10新增800硬上限，250ms板端命令看门狗、上电零输出及舵机协议不变。
+当前本机网页配置为 `forward_pwm: 750`、`lateral_pwm: 700`，旋转保留600。
+`lateral_start_pwm: 800` 配合 `lateral_start_seconds: 0.18` 只在一次纯横移手势
+起步时提供助力，持续按住不会重复触发；松手、反向、失联或禁行会重置。
+超过600的配置仅允许在0.10固件启用；旧固件仍按600硬上限处理，
+未配置轴向输出时沿用原有基准。更高输出来自用户手动按键，启动、解锁和通信恢复不自动运动。
+落地横移起动能力必须由用户观察确认，不能把悬空轮向通过当作负载验收。
 
 ## 回滚
 

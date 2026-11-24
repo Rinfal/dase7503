@@ -64,13 +64,21 @@ class WebTests(unittest.TestCase):
         self.assertEqual(verified_features(dict(profile, servo=requested))[2], requested['manual_pulses_us'])
         requested = dict(servo, manual_pulses_us={'down': 300, 'up': 750})
         self.assertEqual(verified_features(dict(profile, servo=requested))[2], requested['manual_pulses_us'])
+        for up in (1050,1300):
+            requested = dict(servo, manual_pulses_us={'down': 350, 'up': up})
+            with tempfile.TemporaryDirectory() as root:
+                state = WebState('test-password', dict(profile, servo=requested), root)
+                self.assertEqual(state.status()['lift_pulses_us'], {'down': 350, 'up': up})
+                self.assertTrue(state.status()['lift_enabled'])
+                self.assertFalse(state.status()['lift_range_verified'])
+                self.assertIsNone(state.control.pending_lift)
         for down in (325,350,375):
             requested = dict(servo, manual_pulses_us={'down':down, 'up':750})
             self.assertEqual(verified_features(dict(profile, servo=requested))[2],requested['manual_pulses_us'])
         for down in (299,401,350.0,True):
             requested = dict(servo, manual_pulses_us={'down':down, 'up':750})
             self.assertFalse(verified_features(dict(profile,servo=requested))[2])
-        for pulse in (540.0, True, 1500, 250):
+        for pulse in (540.0, 1050.0, 1300.0, True, 1049, 1051, 1299, 1301, 1500, 250):
             bad = dict(servo, manual_pulses_us={'down': 400, 'up': pulse})
             self.assertFalse(verified_features(dict(profile, servo=bad))[2])
         self.assertFalse(verified_features(dict(profile,

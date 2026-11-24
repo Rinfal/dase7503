@@ -2,7 +2,7 @@
 """Install local phone services without changing network/proxy configuration.
 
 Run in the ROS environment. Manual lift targets require explicit authorization.
-The new 750us target is not marked as mechanically verified by installation.
+New targets are not marked as mechanically verified by installation.
 """
 import argparse
 import datetime
@@ -27,12 +27,16 @@ def main():
     authorization.add_argument('--authorize-lift-300-750', action='store_true')
     authorization.add_argument('--authorize-lift-down-us', type=int, choices=range(300, 401, 5),
                                help='Operator-selected lower target 300..400us in 5us steps; upper target 750us')
+    parser.add_argument('--authorize-lift-up-us', type=int, choices=(540, 750, 1050, 1300),
+                        help='Explicit upper target override; use with a lift authorization option')
     parser.add_argument('--operator-controls-confirmed', action='store_true')
     parser.add_argument('--direct-control', action='store_true')
     parser.add_argument('--manual-lock-control', action='store_true')
     parser.add_argument('--authorize-mecanum-lateral', action='store_true')
     parser.add_argument('--enable', action='store_true', help='Enable and start the full stack at boot')
     args = parser.parse_args()
+    if args.services_only and args.authorize_lift_up_us is not None:
+        parser.error('--services-only cannot change lift targets')
     os.umask(0o077)
     root = Path(__file__).resolve().parents[1]
     config = Path.home() / '.config/dase7503'
@@ -66,6 +70,8 @@ def main():
             profile['servo']['operator_confirmed_pulses_us'] = {'down': 400, 'up': 540}
         down = args.authorize_lift_down_us or (300 if args.authorize_lift_300_750 else 400)
         up = 750 if args.authorize_lift_400_750 or args.authorize_lift_300_750 or args.authorize_lift_down_us else 540
+        if args.authorize_lift_up_us is not None:
+            up = args.authorize_lift_up_us
         profile['servo'].update(safe_range_verified=False, manual_lift_authorized=True,
                                 manual_pulses_us={'down': down, 'up': up},
                                 initial_position_us=down,

@@ -42,12 +42,45 @@ class DrivePWMTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             DrivePWM((-1, 1, -1, 1), duty=601)
 
+    def test_lateral_boost_preserves_forward_yaw_and_bounds_mixed_requests(self):
+        baseline = DrivePWM((-1,1,-1,1), duty=600, lateral_enabled=True)
+        boosted = DrivePWM((-1,1,-1,1), duty=600, lateral_enabled=True, lateral_duty=800)
+        self.assertEqual(boosted.output(0,.08,0), [-800,-800,800,800])
+        self.assertEqual(boosted.output(0,-.08,0), [800,800,-800,-800])
+        self.assertEqual(boosted.output(0,0,0), [0]*4)
+        for forward in (-.08,-.04,0,.04,.08):
+            for yaw in (-.35,0,.35):
+                self.assertEqual(boosted.output(forward,0,yaw), baseline.output(forward,0,yaw))
+                for lateral in (-.08,-.04,0,.04,.08):
+                    self.assertTrue(all(abs(v)<=800 for v in boosted.output(forward,lateral,yaw)))
+        for invalid in (0,801,800.0,True):
+            with self.assertRaises(ValueError):
+                DrivePWM((-1,1,-1,1), lateral_duty=invalid)
+
     def test_invalid_or_unverified_requests_are_rejected(self):
         for values in ((math.nan, 0, 0), (0, 0, math.inf), (0, 0.01, 0)):
             with self.assertRaises(ValueError):
                 self.drive.output(*values)
         with self.assertRaises(ValueError):
             DrivePWM((1, 0, 1, -1))
+
+    def test_independent_axis_outputs_preserve_directions_and_stop(self):
+        drive = DrivePWM((-1,1,-1,1), duty=600, forward_duty=750,
+                         lateral_enabled=True, lateral_duty=700)
+        self.assertEqual(drive.output(.08,0,0), [-750,750,-750,750])
+        self.assertEqual(drive.output(-.08,0,0), [750,-750,750,-750])
+        self.assertEqual(drive.output(0,.08,0), [-700,-700,700,700])
+        self.assertEqual(drive.output(0,-.08,0), [700,700,-700,-700])
+        self.assertEqual(drive.output(0,0,.35), [-600]*4)
+        self.assertEqual(drive.output(0,0,-.35), [600]*4)
+        self.assertEqual(drive.output(0,0,0,lateral_duty=800), [0]*4)
+        for forward in (-.08,0,.08):
+            for lateral in (-.08,0,.08):
+                for angular in (-.35,0,.35):
+                    self.assertTrue(all(abs(v)<=800 for v in drive.output(forward,lateral,angular)))
+        for invalid in (0,801,750.0,True):
+            with self.assertRaises(ValueError):
+                DrivePWM((-1,1,-1,1), forward_duty=invalid)
 
 
 if __name__ == "__main__":

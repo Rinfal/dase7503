@@ -21,7 +21,7 @@ from std_msgs.msg import Bool, Int32, Int32MultiArray, String, UInt16
 
 from .web_server import RobotHTTPServer, WebState
 from .drive_pwm import DrivePWM
-from .pwm_bridge import PWMBridge, decode_status
+from .pwm_bridge import PWMBridge, decode_status, wheel_pwm_limit
 
 
 class WebNode(Node):
@@ -55,9 +55,18 @@ class WebNode(Node):
         if self.pwm_mode:
             controller = profile['controller']
             if self.state.control.drive_enabled:
+                lateral_duty = controller.get('lateral_pwm', controller['verified_bench_running_pwm'])
+                forward_duty = controller.get('forward_pwm', controller['verified_bench_running_pwm'])
+                start_duty = controller.get('lateral_start_pwm')
+                for value in (forward_duty, lateral_duty, *(() if start_duty is None else (start_duty,))):
+                    if type(value) is not int or not 1 <= value <= wheel_pwm_limit(self.firmware):
+                        raise ValueError('Drive PWM exceeds the configured firmware limit')
                 self.pwm_bridge = PWMBridge(DrivePWM(controller['motor_forward_pwm_signs'],
                     duty=controller['verified_bench_running_pwm'],
-                    lateral_enabled=self.state.control.lateral_enabled))
+                    lateral_enabled=self.state.control.lateral_enabled,
+                    lateral_duty=lateral_duty, forward_duty=forward_duty),
+                    lateral_start_duty=start_duty,
+                    lateral_start_seconds=controller.get('lateral_start_seconds', .18))
                 self.wheels = self.create_publisher(Int32MultiArray, '/wheel_pwm', qos_profile_sensor_data)
                 self.arm_pub = self.create_publisher(Bool, '/drive_arm', qos_profile_sensor_data)
             self.create_subscription(String, '/drive/status', self.board_feedback, qos_profile_sensor_data)

@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-24",
+  "new_photo": "docs/evidence/hardware_top_after_front_swap_20261124.jpg",
+  "front_in_photo": "toward_bottom_red_arrow",
+  "motor_positions_in_photo": {
+    "bottom_left": "M1 front_right",
+    "bottom_right": "M2 front_left",
+    "top_left": "M3 rear_right",
+    "top_right": "M4 rear_left"
+  },
+  "photo_assessment": {
+    "roller_layout": "appears_standard_X",
+    "assessment_type": "visual_inference",
+    "ground_lateral_accepted": true,
+    "mechanical_roller_freedom_verified": true,
+    "notes": "Rear wheels partly obscured by platform/battery/wires. Keep installation while checking roller freedom and cable interference; do not infer successful loaded motion from the photo.",
+    "roller_freedom_scope": "Operator hand check with motor power removed; does not establish freedom under ground load."
+  },
+  "calibrated_motor_forward_pwm_signs": [
+    -1,
+    1,
+    -1,
+    1
+  ],
+  "observed_segments": {
+    "backward": [
+      {
+        "pwm": [
+          600,
+          -600,
+          600,
+          -600
+        ],
+        "duration_seconds": 0.798,
+        "encoder_delta": [
+          458,
+          -378,
+          456,
+          -384
+        ]
+      }
+    ],
+    "left": [
+      {
+        "pwm": [
+          -600,
+          -600,
+          600,
+          600
+        ],
+        "duration_seconds": 4.502,
+        "encoder_delta": [
+          -1,
+          -157,
+          51,
+          0
+        ]
+      },
+      {
+        "pwm": [
+          -600,
+          -600,
+          600,
+          600
+        ],
+        "duration_seconds": 3.455,
+        "encoder_delta": [
+          0,
+          -3,
+          2,
+          0
+        ]
+      },
+      {
+        "pwm": [
+          -600,
+          -600,
+          600,
+          600
+        ],
+        "duration_seconds": 3.254,
+        "encoder_delta": [
+          -203,
+          -156,
+          12,
+          17
+        ]
+      }
+    ],
+    "right": [
+      {
+        "pwm": [
+          600,
+          600,
+          -600,
+          -600
+        ],
+        "duration_seconds": 1.998,
+        "encoder_delta": [
+          602,
+          467,
+          -55,
+          -6
+        ]
+      }
+    ]
+  },
+  "interpretation": "All four encoders change in backward motion, while sustained lateral motion has several nearly stationary wheels. Software-to-board transport is sustained after wireless repair; wheel/roller resistance and load still need physical inspection. Not proof of a failed motor or encoder.",
+  "assistant_actuator_commands_sent": false,
+  "pending": "Operator field-course test after confirming basic lateral movement works at800 PWM.",
+  "raised_lateral_direction_operator_verified": true,
+  "raised_lateral_operator_observation": "M1 front-right and M4 rear-left forward; M2 front-left and M3 rear-right backward; all four rotate.",
+  "basic_lateral_acceptance_evidence": "docs/evidence/lateral_800_acceptance_20261124.json"
+}

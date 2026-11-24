@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-24",
+  "firmware": "dase-rc-0.10",
+  "drive_pwm": {
+    "forward_back": 750,
+    "yaw": 600,
+    "lateral_sustained": 700,
+    "lateral_start": 800,
+    "start_seconds": 0.18
+  },
+  "lift_targets_us": {
+    "down": 350,
+    "up": 1300
+  },
+  "physical_acceptance": "New speed ratio and upper travel await operator observation; previous 800 lateral accepted.",
+  "layout": "Combined live camera, lock/stop, drive and lift; QR evidence below.",
+  "tests": {
+    "python_suite": 111,
+    "frontend_direct": "pass",
+    "frontend_manual_lock": "pass",
+    "video_reconnect": "pass",
+    "mobile_viewport": "390x844 all driving and lift controls visible",
+    "desktop_viewport": "1280x800 side by side, no horizontal overflow"
+  },
+  "live_status": {
+    "armed": false,
+    "manual_lock": true,
+    "controller_ready": false,
+    "direct_control": false,
+    "estop": true,
+    "reason": "emergency_stop",
+    "drive_enabled": true,
+    "lateral_enabled": true,
+    "lift_enabled": true,
+    "last_lift_command": null,
+    "lift_busy": false,
+    "feedback_age": 0.010892621000039071,
+    "server_clock": 876.80868244,
+    "max_linear": 0.08,
+    "max_angular": 0.35,
+    "camera_age": 0.39249178599993684,
+    "video_fps": 6.904334145095887,
+    "bench_only": false,
+    "lift_range_verified": false,
+    "lift_pulses_us": {
+      "down": 350,
+      "up": 1300
+    },
+    "battery_raw": 2507,
+    "battery_unit_verified": false,
+    "qr": [],
+    "board_armed": false,
+    "wheel_pwm": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "lift_command_us": 0,
+    "lift_holding": false
+  },
+  "network_unchanged": {
+    "uplink_settings": true,
+    "uplink_active": true,
+    "hotspot_settings": true,
+    "routes": true,
+    "rules": true,
+    "proxy_pid": true,
+    "dns": true
+  },
+  "assistant_actuator_commands_sent": false,
+  "deployment_snapshot": "robot_ws/src/logistics_robot/config/phone_profile_20261124.yaml"
+}

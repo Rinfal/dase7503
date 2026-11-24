@@ -6,10 +6,30 @@
 <main>
 <section id="login" class="panel login"><h2>手机遥控</h2><p>连接热点 <strong>Pi5-Control</strong> 后，在此输入网页访问口令。网页与按钮无需互联网。</p><form id="loginForm"><label for="password">网页访问口令</label><div class="loginrow"><input id="password" type="password" required autocomplete="current-password"><button type="submit">连接</button></div></form></section>
 <div id="dashboard" hidden>
-<div class="workspace">
-<section class="panel camera"><div class="sectionhead"><h2>前方画面</h2><span id="cameraState" class="muted">等待相机</span></div><div class="viewport"><img id="frame" alt="小车前方实时画面" hidden><div id="cameraEmpty">正在连接相机<span>视频恢复后自动重连</span></div><span id="frameLabel">LIVE</span></div><div class="toolbar"><button id="snapshot" class="secondary" disabled>保存当前截图</button><span id="scanState" class="muted">等待相机</span></div><div class="qrLive"><span class="muted">最近识别</span><strong id="qrPayload">将二维码放入画面</strong><span id="qrMeta" class="muted">连续三帧确认后自动保存</span></div><div id="snapshotResult"></div></section>
-<section class="panel controls"><div class="sectionhead"><h2>驾驶控制</h2><span id="armState" class="badge">已锁定</span></div><p id="gateReason" class="notice">正在读取验收状态</p><div class="metrics"><div><span>控制板反馈</span><strong id="feedback">等待</strong></div><div><span>升降指令目标</span><strong id="liftTarget">未下发</strong></div></div><button id="arm" class="wide" disabled>解锁驾驶</button><p id="driveHint" class="hint">按住行驶，松开停车。离开页面会停车。</p><div class="drivepad"><button data-drive="forward" disabled>前进</button><div class="drivecenter"><button data-drive="left" disabled>左平移</button><button id="halt" class="secondary" disabled>停车</button><button data-drive="right" disabled>右平移</button></div><button data-drive="back" disabled>后退</button><div class="turnpad"><button data-drive="ccw" class="secondary" disabled>左转</button><button data-drive="cw" class="secondary" disabled>右转</button></div></div><button id="stop" class="estop wide">紧急停车</button><p class="hint">急停停止底盘；已发出的升降位置保持不变；手动解锁状态保持，点击“上锁驾驶”才会上锁。</p><div class="lift"><h3>升降平台 · S2</h3><div><button data-lift="up" class="secondary" disabled>升起</button><button data-lift="down" class="secondary" disabled>降下</button></div><p id="liftReason" class="hint">安全行程尚未标定</p></div></section>
-</div>
+<section class="panel cockpit" aria-label="实时画面与驾驶控制">
+  <div class="sectionhead cockpithead"><h2>实时驾驶</h2><div class="livebadges"><span id="cameraState" class="muted">等待相机</span><span id="armState" class="badge">已锁定</span></div></div>
+  <div class="workspace">
+    <div class="camera"><div class="viewport"><img id="frame" alt="小车前方实时画面" hidden><div id="cameraEmpty">正在连接相机<span>视频恢复后自动重连</span></div><span id="frameLabel">LIVE</span></div></div>
+    <div class="controls">
+      <p id="gateReason" class="notice">正在读取验收状态</p>
+      <div class="actionrow"><button id="arm" disabled>解锁驾驶</button><button id="stop" class="estop">紧急停车</button></div>
+      <p id="driveHint" class="hint">按住行驶，松开停车。离开页面会停车。</p>
+      <div class="drivepad" aria-label="底盘方向控制">
+        <button data-drive="forward" disabled>前进</button>
+        <div class="drivecenter"><button data-drive="left" disabled>左平移</button><button id="halt" class="secondary" disabled>停车</button><button data-drive="right" disabled>右平移</button></div>
+        <button data-drive="back" disabled>后退</button>
+        <div class="turnpad"><button data-drive="ccw" class="secondary" disabled>左转</button><button data-drive="cw" class="secondary" disabled>右转</button></div>
+      </div>
+      <div class="lift"><h3>升降平台</h3><div><button data-lift="up" class="secondary" disabled>升起</button><button data-lift="down" class="secondary" disabled>降下</button></div><p id="liftReason" class="hint">安全行程尚未标定</p></div>
+    </div>
+  </div>
+</section>
+<section class="panel scanpanel" aria-label="扫码与截图">
+  <div class="toolbar"><h2>扫码与截图</h2><button id="snapshot" class="secondary" disabled>保存当前截图</button></div>
+  <p id="scanState" class="muted">等待相机</p>
+  <div class="qrLive"><span class="muted">最近识别</span><strong id="qrPayload">将二维码放入画面</strong><span id="qrMeta" class="muted">连续三帧确认后自动保存</span></div><div id="snapshotResult"></div>
+  <details class="controlinfo"><summary>控制状态与停车说明</summary><div class="metrics"><div><span>控制板反馈</span><strong id="feedback">等待</strong></div><div><span>升降指令目标</span><strong id="liftTarget">未下发</strong></div></div><p class="hint">急停停止底盘，保持已发送的升降位置；点击“上锁驾驶”才会上锁。离开页面或失联会停车。</p></details>
+</section>
 <section class="panel evidence"><div class="sectionhead"><div><h2>二维码留证</h2><p class="muted">自动识别课程码、文本与网址，保存内容和截图；相同内容只记录一次</p></div><button id="refresh" class="secondary">刷新记录</button></div><div id="evidenceList" class="evidenceList"><p class="muted">还没有二维码记录。将本组二维码放入相机视野。</p></div></section>
 <footer><span>本地网络连接 · 手动遥控</span><button id="logout" class="textbutton">退出登录</button></footer>
 </div>

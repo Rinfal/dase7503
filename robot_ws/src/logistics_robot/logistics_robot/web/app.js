@@ -33,8 +33,8 @@ function render(s){
   $("arm").textContent=s.manual_lock&&s.armed?"上锁驾驶":"解锁驾驶";
   const usable=s.drive_enabled&&(s.direct_control||s.armed&&(s.manual_lock||lease));
   $("arm").hidden=!!s.direct_control;
-  $("driveHint").textContent="按住持续行驶，松开立即停车。离开页面会停车。";
-  $("gateReason").textContent=!s.drive_enabled?"底盘轮向和板端失联停车尚未验收，目前可查看画面与保存截图。":s.manual_lock?(s.armed?"已手动解锁；松手或失联只停车，点击上锁才锁定。":"点击解锁后操作，动作结束保持解锁。") :s.direct_control?"直接按住方向键即可行驶，无需解锁。":reasonNames[s.reason]||s.reason;
+  $("driveHint").textContent="按住行驶，松开停车；离开页面会停车。";
+  $("gateReason").textContent=!s.drive_enabled?"底盘轮向和板端失联停车尚未验收，目前可查看画面与保存截图。":s.manual_lock?(s.armed?"已解锁 · 点击“上锁驾驶”才锁定。":"点击解锁后操作，动作结束保持解锁。") :s.direct_control?"直接按住方向键即可行驶，无需解锁。":reasonNames[s.reason]||s.reason;
   $("arm").disabled=!s.drive_enabled||(!s.armed&&!feedback)||(!s.manual_lock&&s.armed);
   document.querySelectorAll("[data-drive]").forEach(b=>b.disabled=!usable||s.lift_busy||liftSending||(["left","right"].includes(b.dataset.drive)&&!s.lateral_enabled));
   $("halt").disabled=!s.drive_enabled;

@@ -1,0 +1,94 @@
+{
+  "date": "2026-11-24",
+  "firmware": "dase-rc-0.10",
+  "operator_confirmation": "现在可以，我跑一下场地测试，一会回来",
+  "basic_lateral_operator_accepted": true,
+  "field_test_status": "operator_testing_in_progress",
+  "forward_yaw_pwm": 600,
+  "lateral_pwm": 800,
+  "lift_targets_us": {
+    "down": 350,
+    "up": 1050
+  },
+  "assistant_actuator_commands_sent": false,
+  "network_settings_changed_during_field_test": false,
+  "captured_pwm_patterns": [
+    [
+      -800,
+      -800,
+      800,
+      800
+    ],
+    [
+      -600,
+      600,
+      -600,
+      600
+    ],
+    [
+      800,
+      800,
+      -800,
+      -800
+    ]
+  ],
+  "selected_left_segment": {
+    "pwm": [
+      -800,
+      -800,
+      800,
+      800
+    ],
+    "start_elapsed": 28.947,
+    "end_elapsed": 29.342,
+    "start_encoders": [
+      -43,
+      -41,
+      40,
+      39
+    ],
+    "end_encoders": [
+      -2051,
+      -1992,
+      2027,
+      1942
+    ],
+    "encoder_delta": [
+      -2008,
+      -1951,
+      1987,
+      1903
+    ],
+    "samples": 9
+  },
+  "selected_right_segment": {
+    "pwm": [
+      800,
+      800,
+      -800,
+      -800
+    ],
+    "start_elapsed": 48.784,
+    "end_elapsed": 48.934,
+    "start_encoders": [
+      -6104,
+      -3447,
+      3594,
+      5129
+    ],
+    "end_encoders": [
+      -5440,
+      -2815,
+      2924,
+      4478
+    ],
+    "encoder_delta": [
+      664,
+      632,
+      -670,
+      -651
+    ],
+    "samples": 4
+  },
+  "notes": "Operator confirms working lateral movement after raised-wheel and ground trial request. Field-course testing remains in progress; do not restart services or adjust control parameters while operator is testing."
+}

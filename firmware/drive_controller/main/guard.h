@@ -2,6 +2,8 @@
 #include <stdbool.h>
 #include <stdint.h>
 
+#define DRIVE_MAX_DUTY 800
+
 typedef struct {
     bool armed;
     bool timed_out;

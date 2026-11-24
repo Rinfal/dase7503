@@ -3,7 +3,7 @@
 
 int main(void) {
     drive_guard_t g={0};
-    int zero[4]={0},move[4]={350,350,-350,-350},bad[4]={601,0,0,0};
+    int zero[4]={0},move[4]={800,800,-800,-800},bad[4]={801,0,0,0};
     assert(!guard_arm(&g,1000));
     assert(!guard_command(&g,move,2000));
     assert(g.duty[0]==0);
@@ -23,5 +23,7 @@ int main(void) {
     assert(guard_command(&g,zero,501000)); assert(guard_arm(&g,502000));
     assert(guard_command(&g,move,503000)); guard_stop(&g);
     for(int i=0;i<4;i++) assert(g.duty[i]==0);
+    int negative_bad[4]={0,0,0,-801};
+    assert(!guard_command(&g,negative_bad,504000));
     return 0;
 }

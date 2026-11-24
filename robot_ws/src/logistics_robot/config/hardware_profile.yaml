@@ -1,8 +1,8 @@
 controller:
   manufacturer: Yahboom
   chipset: ESP32-S3
-  firmware: dase-rc-0.9
-  firmware_compiled: '2026-11-19'
+  firmware: dase-rc-0.10
+  firmware_compiled: '2026-11-24'
   car_type: CAR_TYPE_RPI5
   transport: serial
   serial_port: /dev/serial/by-id/usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001-if00-port0
@@ -54,7 +54,7 @@ controller:
   wheel_pwm_topic: /wheel_pwm
   arm_topic: /drive_arm
   status_topic: /drive/status
-  flash_evidence: docs/evidence/controller_flash_09.json
+  flash_evidence: docs/evidence/controller_flash_010.json
   boot_idle_evidence: docs/evidence/lift_150_boot_idle.json
   battery_monitor_available: false
   factory_direction_observations:

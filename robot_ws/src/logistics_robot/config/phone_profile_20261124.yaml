@@ -1,0 +1,167 @@
+# Deployment snapshot 2026-11-24; contains no web/hotspot passwords.
+controller:
+  manufacturer: Yahboom
+  chipset: ESP32-S3
+  firmware: dase-rc-0.10
+  firmware_compiled: '2026-11-24'
+  car_type: CAR_TYPE_RPI5
+  transport: serial
+  serial_port: /dev/serial/by-id/usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001-if00-port0
+  baudrate: 921600
+  ros_domain_id: 20
+  ros_namespace: ''
+  observed_from: docs/evidence/esp32_passive_serial.json
+  motor_topics_verified: true
+  servo_topics_verified: true
+  node_name: dase_rc_controller
+  velocity_topic: null
+  velocity_type: geometry_msgs/msg/Twist
+  odometry_topic: null
+  odometry_frame: odom_frame
+  odometry_child_frame: base_footprint
+  battery_topic: /battery
+  battery_raw_observed: 73
+  battery_unit_verified: false
+  interface_evidence: docs/evidence/controller_graph.json
+  wheel_directions_verified: true
+  forward_direction_verified: true
+  positive_yaw_direction_verified: true
+  negative_yaw_direction_verified: true
+  direction_review_reason: new_firmware_requires_physical_PWM_calibration
+  proposed_wheel_signs_applied: false
+  proposed_wheel_signs_alone_sufficient: false
+  chassis_front_in_photo: image_bottom_arrow_direction
+  chassis_photo: docs/evidence/hardware_top_20261119.jpg
+  backward_direction_verified: true
+  positive_yaw_observation: right_wheels_forward_left_wheels_backward
+  lateral_response_verified: false
+  command_watchdog_verified: true
+  wheel_type: mecanum
+  roller_orientation_verified: false
+  motor_positions:
+    M1: front_right
+    M2: front_left
+    M3: rear_right
+    M4: rear_left
+  factory_interface_record:
+    firmware: V2.1.0
+    firmware_compiled: '2024-05-07 14:55:36'
+    car_type: CAR_TYPE_RPI5
+    node_name: YB_Car_Node
+    velocity_topic: /cmd_vel
+    odometry_topic: /odom_raw
+    positive_yaw_direction_verified: true
+    negative_yaw_direction_verified: true
+  wheel_pwm_topic: /wheel_pwm
+  arm_topic: /drive_arm
+  status_topic: /drive/status
+  flash_evidence: docs/evidence/controller_flash_010.json
+  boot_idle_evidence: docs/evidence/lift_150_boot_idle.json
+  battery_monitor_available: false
+  factory_direction_observations:
+    forward_observation_15s:
+      M1: backward
+      M2: forward
+      M3: forward
+      M4: backward
+    backward_observation_15s:
+      M1: forward
+      M2: backward
+      M3: backward
+      M4: forward
+    positive_yaw_observation_15s:
+      M1: forward
+      M2: backward
+      M3: forward
+      M4: backward
+    negative_yaw_observation_15s:
+      M1: backward
+      M2: forward
+      M3: backward
+      M4: forward
+    proposed_wheel_direction_signs:
+      M1: -1
+      M2: 1
+      M3: 1
+      M4: -1
+  command_watchdog_scope: all_four_command_silence_and_agent_process_pause
+  command_watchdog_evidence: docs/evidence/adapted_forward_600.json
+  raw_adc_available: true
+  motor_calibration_verified: true
+  motor_forward_pwm_signs:
+  - -1
+  - 1
+  - -1
+  - 1
+  encoder_forward_signs:
+  - -1
+  - 1
+  - -1
+  - 1
+  web_drive_validated: true
+  motor_calibration_evidence: docs/evidence/wheel_calibration.json
+  verified_bench_running_pwm: 600
+  unverified_lower_pwm: true
+  agent_pause_verified: true
+  agent_pause_evidence: docs/evidence/agent_pause_independent_record.json
+  web_drive_evidence: docs/evidence/web_drive_acceptance.json
+  ground_drive_verified: true
+  operator_confirmation: '2026-11-20: operator confirmed all phone controls work and
+    requested removal of trial hold limit.'
+  direct_control: false
+  manual_lock_control: true
+  manual_lateral_authorized: true
+  lateral_authorization_note: '2026-11-24: operator confirmed800 lateral works, then
+    requested faster forward/back and slower lateral. Set forward750, yaw600, lateral700
+    with180ms800 starting assist; new speed balance awaits operator observation.'
+  lateral_pwm: 700
+  forward_pwm: 750
+  lateral_start_pwm: 800
+  lateral_start_seconds: 0.18
+servo:
+  port: S2
+  function: lift_platform
+  topic: /servo_s2_us
+  message_type: std_msgs/msg/Int32
+  safe_range_verified: false
+  message_unit: pulse_width_microseconds
+  current_physical_position: not_measured_on_startup
+  initial_pulse_not_calibrated: false
+  probe_evidence:
+  - docs/evidence/lift_probe_1500.json
+  - docs/evidence/lift_probe_1540.json
+  wiring_corrected_by_user: true
+  observed_model: TowerPro MG996R digi hi torque
+  pulse_decrease_observed: down
+  same_target_repeat_observed: no_further_motion
+  type_assessment: position_servo_behavior_observed
+  calibration_evidence: docs/evidence/lift_calibration.json
+  last_probe_us: 150
+  maximum_observed_probe_us: 1500
+  manual_lift_authorized: true
+  manual_pulses_us:
+    down: 350
+    up: 1300
+  initial_position_us: 350
+  manual_authorization_note: '2026-11-20: operator confirms 400 and 350us descend,
+    350 remains high; 300,325,340us do not move. Actual pin measurements confirm these
+    commands are output (340 measured338us). Restore working350us down, retain750us
+    up; lower mechanical position unresolved. 2026-11-24: operator requested upper
+    target +300us, changing 750 to1050us; down350 retained. New upper travel awaits
+    physical observation. 2026-11-24: operator requested upper target another250us,
+    from1050 to1300; down350 unchanged. New upper travel awaits observation.'
+  operator_confirmed_pulses_us:
+    down: 350
+    up: 750
+lidar:
+  model: MS200p
+  connected: false
+  baudrate: 230400
+camera:
+  sensor: imx708
+  direction: forward
+  streaming_verified: true
+  verified_resolution:
+  - 1280
+  - 720
+  evidence: docs/evidence/camera_first_frame.png

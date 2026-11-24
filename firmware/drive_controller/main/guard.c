@@ -29,7 +29,7 @@ bool guard_command(drive_guard_t *g, const int *duty, int64_t now) {
     guard_tick(g, now);
     bool neutral = true;
     for (int i = 0; i < 4; i++) {
-        if (duty[i] < -600 || duty[i] > 600) {
+        if (duty[i] < -DRIVE_MAX_DUTY || duty[i] > DRIVE_MAX_DUTY) {
             guard_stop(g);
             g->neutral_us = 0;
             return false;

@@ -37,6 +37,34 @@ class BridgeTests(unittest.TestCase):
         self.ready()
         self.assertEqual(self.bridge.step(self.control, Velocity(.08), 10.18), ([-600, 600, -600, 600], None, None))
 
+    def test_lateral_start_assist_expires_and_release_cancels_it(self):
+        self.bridge = PWMBridge(DrivePWM([-1,1,-1,1],600,forward_duty=750,
+            lateral_enabled=True,lateral_duty=700),lateral_start_duty=800,lateral_start_seconds=.18)
+        self.ready()
+        left = Velocity(lateral=.08)
+        self.assertEqual(self.bridge.step(self.control,left,10.18)[0],[-800,-800,800,800])
+        self.feedback(10.33,armed=True)
+        self.assertEqual(self.bridge.step(self.control,left,10.33)[0],[-800,-800,800,800])
+        self.feedback(10.37,armed=True)
+        self.assertEqual(self.bridge.step(self.control,left,10.37)[0],[-700,-700,700,700])
+        self.assertEqual(self.bridge.step(self.control,Velocity(),10.38)[0],[0]*4)
+        self.assertEqual(self.bridge.step(self.control,Velocity(lateral=-.08),10.39)[0],[800,800,-800,-800])
+        self.feedback(10.58,armed=True)
+        self.assertEqual(self.bridge.step(self.control,Velocity(lateral=-.08),10.58)[0],[700,700,-700,-700])
+        self.assertEqual(self.bridge.step(self.control,Velocity(forward=.08),10.59)[0],[-750,750,-750,750])
+        self.control.stop()
+        self.assertEqual(self.bridge.step(self.control,left,10.60),([0]*4,False,None))
+
+    def test_lateral_start_assist_cannot_bypass_feedback_loss_or_lift(self):
+        self.bridge = PWMBridge(DrivePWM([-1,1,-1,1],600,lateral_enabled=True,lateral_duty=700),
+                                lateral_start_duty=800)
+        self.ready()
+        self.control.lift_block_until=11
+        self.assertEqual(self.bridge.step(self.control,Velocity(lateral=.08),10.18)[0],[0]*4)
+        self.control.lift_block_until=0
+        self.assertEqual(self.bridge.step(self.control,Velocity(lateral=.08),10.19)[0],[-800,-800,800,800])
+        self.assertEqual(self.bridge.step(self.control,Velocity(lateral=.08),10.6),([0]*4,False,None))
+
     def test_board_timeout_locks_instead_of_auto_rearming(self):
         self.ready()
         self.bridge.step(self.control, Velocity(.08), 10.18)
@@ -74,6 +102,17 @@ class BridgeTests(unittest.TestCase):
                         {'armed': 1}, {'pwm': [601]*4}, {'firmware': 'factory'}):
             with self.assertRaises(ValueError):
                 decode_status(json.dumps(dict(status, **changes)), 'dase-rc-0.4')
+
+    def test_boosted_status_requires_new_firmware_and_enforces_800_ceiling(self):
+        self.feedback(10)
+        status = dict(self.bridge.board, firmware='dase-rc-0.10', pwm=[-800,-800,800,800])
+        self.assertEqual(decode_status(json.dumps(status), 'dase-rc-0.10'), status)
+        for firmware in ('dase-rc-0.9','dase-rc-0.11'):
+            with self.assertRaises(ValueError):
+                decode_status(json.dumps(dict(status, firmware=firmware)), firmware)
+        for pwm in ([801,0,0,0],[0,0,0,-801]):
+            with self.assertRaises(ValueError):
+                decode_status(json.dumps(dict(status,pwm=pwm)), 'dase-rc-0.10')
 
 
 if __name__ == '__main__':
