@@ -1,5 +1,7 @@
 # DASE7503 智能物流小车
 
+实际扫码截图与码内容：[2026-11-26 实地运行及历史记录](docs/qr-scans/README.md)，已分文件夹归档。
+
 手机热点遥控、流式视频和自动二维码留证已部署：连接 `Pi5-Control` 后打开 `http://10.42.50.1:8080/`。驾驶与升降操作、后台服务及验证范围见 [手机遥控说明](docs/phone-control.md)。
 
 最新进度与验证范围见 [交接记录](docs/RESUME.md)，笔记本网线 SSH 开发见 [连接与配置恢复说明](docs/laptop-development.md)。当前无口令配置快照为 `robot_ws/src/logistics_robot/config/phone_profile_20261124.yaml`。

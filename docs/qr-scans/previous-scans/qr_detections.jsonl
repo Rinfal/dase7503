@@ -1,0 +1,7 @@
+{"payload": "RACKC_QW03", "kind": "RACK", "rack": "C", "team_code": "QW03", "timestamp_utc": "2026-11-20T08:00:15.585160+00:00", "image": "20261120T080015.585160Z_c56e3f7a62a62557.png"}
+{"payload": "START", "kind": "START", "rack": "", "team_code": "", "timestamp_utc": "2026-11-24T05:20:12.594116+00:00", "image": "20261124T052012.594116Z_39f17ec6ebcf3cec.png"}
+{"payload": "END", "kind": "END", "rack": "", "team_code": "", "timestamp_utc": "2026-11-24T05:21:38.379350+00:00", "image": "20261124T052138.379350Z_b891f9e2a6962626.png"}
+{"payload": "RACKD_VI32", "kind": "RACK", "rack": "D", "team_code": "VI32", "timestamp_utc": "2026-11-24T05:51:08.024978+00:00", "image": "20261124T055108.024978Z_16f117da45c94d33.png"}
+{"payload": "RACKA_75CS", "kind": "RACK", "rack": "A", "team_code": "75CS", "timestamp_utc": "2026-11-24T05:51:27.025187+00:00", "image": "20261124T055127.025187Z_4398b9f1b4d1d123.png"}
+{"payload": "RACKB_CSIN", "kind": "RACK", "rack": "B", "team_code": "CSIN", "timestamp_utc": "2026-11-24T07:50:00.125988+00:00", "image": "20261124T075000.125988Z_100c3f3e7c6473e4.png"}
+{"payload": "RACKC_8DSA", "kind": "RACK", "rack": "C", "team_code": "8DSA", "timestamp_utc": "2026-11-24T08:45:32.646555+00:00", "image": "20261124T084532.646555Z_64e2e92f80e1332d.png"}
